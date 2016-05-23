@@ -1,0 +1,3244 @@
+/*      light colors - used for select dropdown         */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_chartist\.scss}line{font-family:\0000390}}
+.ct-blue {
+  stroke: #7A9E9F !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_chartist\.scss}line{font-family:\0000393}}
+.ct-azure {
+  stroke: #68B3C8 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_chartist\.scss}line{font-family:\0000396}}
+.ct-green {
+  stroke: #7AC29A !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_chartist\.scss}line{font-family:\0000399}}
+.ct-orange {
+  stroke: #F3BB45 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_chartist\.scss}line{font-family:\00003102}}
+.ct-red {
+  stroke: #EB5E28 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\000031}}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4, h5, .h5, h6, .h6, p, .navbar, .brand, a, .td-name, td {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+  font-family: 'Muli', "Helvetica", Arial, sans-serif; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\000037}}
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+  font-weight: 400;
+  margin: 30px 0 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000312}}
+h1, .h1 {
+  font-size: 3.2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000315}}
+h2, .h2 {
+  font-size: 2.6em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000318}}
+h3, .h3 {
+  font-size: 1.825em;
+  line-height: 1.4;
+  margin: 20px 0 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000323}}
+h4, .h4 {
+  font-size: 1.5em;
+  font-weight: 600;
+  line-height: 1.2em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000328}}
+h5, .h5 {
+  font-size: 1.25em;
+  font-weight: 400;
+  line-height: 1.4em;
+  margin-bottom: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000334}}
+h6, .h6 {
+  font-size: 0.9em;
+  font-weight: 600;
+  text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000339}}
+p {
+  font-size: 16px;
+  line-height: 1.4em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000344}}
+h1 small, h2 small, h3 small, h4 small, h5 small, h6 small, .h1 small, .h2 small, .h3 small, .h4 small, .h5 small, .h6 small, h1 .small, h2 .small, h3 .small, h4 .small, h5 .small, h6 .small, .h1 .small, .h2 .small, .h3 .small, .h4 .small, .h5 .small, .h6 .small {
+  color: #9A9A9A;
+  font-weight: 300;
+  line-height: 1.4em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000350}}
+h1 small, h2 small, h3 small, h1 .small, h2 .small, h3 .small {
+  font-size: 60%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000353}}
+.title-uppercase {
+  text-transform: uppercase; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000356}}
+blockquote {
+  font-style: italic; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000359}}
+blockquote small {
+  font-style: normal; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000362}}
+.text-muted {
+  color: #DDDDDD; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000365}}
+.text-primary, .text-primary:hover {
+  color: #427C89; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000368}}
+.text-info, .text-info:hover {
+  color: #3091B2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000371}}
+.text-success, .text-success:hover {
+  color: #42A084; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000374}}
+.text-warning, .text-warning:hover {
+  color: #BB992F; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000377}}
+.text-danger, .text-danger:hover {
+  color: #B33C12; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000380}}
+.glyphicon {
+  line-height: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000383}}
+strong {
+  color: #403D39; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000386}}
+.icon-primary {
+  color: #7A9E9F; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000389}}
+.icon-info {
+  color: #68B3C8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000392}}
+.icon-success {
+  color: #7AC29A; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000395}}
+.icon-warning {
+  color: #F3BB45; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\0000398}}
+.icon-danger {
+  color: #EB5E28; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\00003102}}
+.chart-legend .text-primary, .chart-legend .text-primary:hover {
+  color: #7A9E9F; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\00003105}}
+.chart-legend .text-info, .chart-legend .text-info:hover {
+  color: #68B3C8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\00003108}}
+.chart-legend .text-success, .chart-legend .text-success:hover {
+  color: #7AC29A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\00003111}}
+.chart-legend .text-warning, .chart-legend .text-warning:hover {
+  color: #F3BB45; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_typography\.scss}line{font-family:\00003114}}
+.chart-legend .text-danger, .chart-legend .text-danger:hover {
+  color: #EB5E28; }
+
+/*     General overwrite     */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_misc\.scss}line{font-family:\000032}}
+body {
+  color: #66615b;
+  font-size: 14px;
+  font-family: 'Muli', Arial, sans-serif; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_misc\.scss}line{font-family:\000036}}
+  body .wrapper {
+    min-height: 100vh;
+    position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_misc\.scss}line{font-family:\0000311}}
+a {
+  color: #68B3C8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_misc\.scss}line{font-family:\0000314}}
+  a:hover, a:focus {
+    color: #3091B2;
+    text-decoration: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_misc\.scss}line{font-family:\0000320}}
+a:focus, a:active,
+button::-moz-focus-inner,
+input::-moz-focus-inner,
+select::-moz-focus-inner,
+input[type="file"] > input[type="button"]::-moz-focus-inner {
+  outline: 0 !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_misc\.scss}line{font-family:\0000327}}
+.ui-slider-handle:focus,
+.navbar-toggle,
+input:focus,
+button:focus {
+  outline: 0 !important; }
+
+/*           Animations              */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_misc\.scss}line{font-family:\0000335}}
+.form-control,
+.input-group-addon,
+.tagsinput,
+.navbar,
+.navbar .alert {
+  -webkit-transition: all 300ms linear;
+  -moz-transition: all 300ms linear;
+  -o-transition: all 300ms linear;
+  -ms-transition: all 300ms linear;
+  transition: all 300ms linear; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_misc\.scss}line{font-family:\0000343}}
+.sidebar .nav a,
+.table > tbody > tr .td-actions .btn {
+  -webkit-transition: all 150ms ease-in;
+  -moz-transition: all 150ms ease-in;
+  -o-transition: all 150ms ease-in;
+  -ms-transition: all 150ms ease-in;
+  transition: all 150ms ease-in; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_misc\.scss}line{font-family:\0000348}}
+.btn {
+  -webkit-transition: all 100ms ease-in;
+  -moz-transition: all 100ms ease-in;
+  -o-transition: all 100ms ease-in;
+  -ms-transition: all 100ms ease-in;
+  transition: all 100ms ease-in; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_misc\.scss}line{font-family:\0000351}}
+.fa {
+  width: 21px;
+  text-align: center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_misc\.scss}line{font-family:\0000355}}
+.fa-base {
+  font-size: 1.25em !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_misc\.scss}line{font-family:\0000359}}
+.margin-top {
+  margin-top: 50px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_misc\.scss}line{font-family:\0000362}}
+hr {
+  border-color: #F1EAE0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_misc\.scss}line{font-family:\0000365}}
+.wrapper {
+  position: relative;
+  top: 0;
+  height: 100vh; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\000031}}
+.sidebar {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 1;
+  background-size: cover;
+  background-position: center center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\000039}}
+  .sidebar .sidebar-wrapper {
+    position: relative;
+    max-height: none;
+    min-height: 100%;
+    overflow: hidden;
+    width: 260px;
+    z-index: 4;
+    box-shadow: inset -1px 0px 0px 0px #DDDDDD; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\0000318}}
+  .sidebar .sidebar-background {
+    position: absolute;
+    z-index: 1;
+    height: 100%;
+    width: 100%;
+    display: block;
+    top: 0;
+    left: 0;
+    background-size: cover;
+    background-position: center center; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\0000331}}
+.sidebar,
+.off-canvas-sidebar {
+  width: 260px;
+  display: block;
+  font-weight: 200; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\0000337}}
+  .sidebar .logo,
+  .off-canvas-sidebar .logo {
+    padding: 18px 0px;
+    margin: 0 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\0000341}}
+    .sidebar .logo p,
+    .off-canvas-sidebar .logo p {
+      float: left;
+      font-size: 20px;
+      margin: 10px 10px;
+      line-height: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\0000348}}
+    .sidebar .logo .simple-text,
+    .off-canvas-sidebar .logo .simple-text {
+      text-transform: uppercase;
+      padding: 4px 0px;
+      display: block;
+      font-size: 18px;
+      text-align: center;
+      font-weight: 400;
+      line-height: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\0000359}}
+  .sidebar .nav,
+  .off-canvas-sidebar .nav {
+    margin-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\0000363}}
+    .sidebar .nav li > a,
+    .off-canvas-sidebar .nav li > a {
+      margin: 10px 0px;
+      padding-left: 25px;
+      padding-right: 25px;
+      opacity: .7; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\0000371}}
+    .sidebar .nav li:hover > a,
+    .off-canvas-sidebar .nav li:hover > a {
+      opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\0000375}}
+    .sidebar .nav li.active > a,
+    .off-canvas-sidebar .nav li.active > a {
+      color: #7A9E9F;
+      opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\0000379}}
+      .sidebar .nav li.active > a:before,
+      .off-canvas-sidebar .nav li.active > a:before {
+        border-right: 17px solid #DDDDDD;
+        border-top: 17px solid transparent;
+        border-bottom: 17px solid transparent;
+        content: "";
+        display: inline-block;
+        position: absolute;
+        right: 0;
+        top: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\0000390}}
+      .sidebar .nav li.active > a:after,
+      .off-canvas-sidebar .nav li.active > a:after {
+        border-right: 17px solid #f4f3ef;
+        border-top: 17px solid transparent;
+        border-bottom: 17px solid transparent;
+        content: "";
+        display: inline-block;
+        position: absolute;
+        right: -1px;
+        top: 8px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\00003103}}
+    .sidebar .nav p,
+    .off-canvas-sidebar .nav p {
+      margin: 0;
+      line-height: 30px;
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\00003111}}
+    .sidebar .nav i,
+    .off-canvas-sidebar .nav i {
+      font-size: 24px;
+      float: left;
+      margin-right: 15px;
+      line-height: 30px;
+      width: 30px;
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\00003121}}
+  .sidebar:after, .sidebar:before,
+  .off-canvas-sidebar:after,
+  .off-canvas-sidebar:before {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    background: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_sidebar\.scss}line{font-family:\000032}}
+  .sidebar:after, .sidebar:before, .sidebar[data-background-color="white"]:after, .sidebar[data-background-color="white"]:before,
+  .off-canvas-sidebar:after,
+  .off-canvas-sidebar:before,
+  .off-canvas-sidebar[data-background-color="white"]:after,
+  .off-canvas-sidebar[data-background-color="white"]:before {
+    background-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_sidebar\.scss}line{font-family:\000037}}
+  .sidebar .logo, .sidebar[data-background-color="white"] .logo,
+  .off-canvas-sidebar .logo,
+  .off-canvas-sidebar[data-background-color="white"] .logo {
+    border-bottom: 1px solid rgba(102, 97, 91, 0.3); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_sidebar\.scss}line{font-family:\0000310}}
+    .sidebar .logo p, .sidebar[data-background-color="white"] .logo p,
+    .off-canvas-sidebar .logo p,
+    .off-canvas-sidebar[data-background-color="white"] .logo p {
+      color: #66615B; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_sidebar\.scss}line{font-family:\0000314}}
+    .sidebar .logo .simple-text, .sidebar[data-background-color="white"] .logo .simple-text,
+    .off-canvas-sidebar .logo .simple-text,
+    .off-canvas-sidebar[data-background-color="white"] .logo .simple-text {
+      color: #66615B; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_sidebar\.scss}line{font-family:\0000321}}
+  .sidebar .nav li:not(.active) > a, .sidebar[data-background-color="white"] .nav li:not(.active) > a,
+  .off-canvas-sidebar .nav li:not(.active) > a,
+  .off-canvas-sidebar[data-background-color="white"] .nav li:not(.active) > a {
+    color: #66615B; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_sidebar\.scss}line{font-family:\0000325}}
+  .sidebar .nav .divider, .sidebar[data-background-color="white"] .nav .divider,
+  .off-canvas-sidebar .nav .divider,
+  .off-canvas-sidebar[data-background-color="white"] .nav .divider {
+    background-color: rgba(102, 97, 91, 0.2); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_sidebar\.scss}line{font-family:\000032}}
+  .sidebar[data-background-color="black"]:after, .sidebar[data-background-color="black"]:before,
+  .off-canvas-sidebar[data-background-color="black"]:after,
+  .off-canvas-sidebar[data-background-color="black"]:before {
+    background-color: #212120; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_sidebar\.scss}line{font-family:\000037}}
+  .sidebar[data-background-color="black"] .logo,
+  .off-canvas-sidebar[data-background-color="black"] .logo {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_sidebar\.scss}line{font-family:\0000310}}
+    .sidebar[data-background-color="black"] .logo p,
+    .off-canvas-sidebar[data-background-color="black"] .logo p {
+      color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_sidebar\.scss}line{font-family:\0000314}}
+    .sidebar[data-background-color="black"] .logo .simple-text,
+    .off-canvas-sidebar[data-background-color="black"] .logo .simple-text {
+      color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_sidebar\.scss}line{font-family:\0000321}}
+  .sidebar[data-background-color="black"] .nav li:not(.active) > a,
+  .off-canvas-sidebar[data-background-color="black"] .nav li:not(.active) > a {
+    color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_sidebar\.scss}line{font-family:\0000325}}
+  .sidebar[data-background-color="black"] .nav .divider,
+  .off-canvas-sidebar[data-background-color="black"] .nav .divider {
+    background-color: rgba(255, 255, 255, 0.2); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_sidebar\.scss}line{font-family:\0000336}}
+  .sidebar[data-active-color="primary"] .nav li.active > a,
+  .off-canvas-sidebar[data-active-color="primary"] .nav li.active > a {
+    color: #7A9E9F;
+    opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_sidebar\.scss}line{font-family:\0000336}}
+  .sidebar[data-active-color="info"] .nav li.active > a,
+  .off-canvas-sidebar[data-active-color="info"] .nav li.active > a {
+    color: #68B3C8;
+    opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_sidebar\.scss}line{font-family:\0000336}}
+  .sidebar[data-active-color="success"] .nav li.active > a,
+  .off-canvas-sidebar[data-active-color="success"] .nav li.active > a {
+    color: #7AC29A;
+    opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_sidebar\.scss}line{font-family:\0000336}}
+  .sidebar[data-active-color="warning"] .nav li.active > a,
+  .off-canvas-sidebar[data-active-color="warning"] .nav li.active > a {
+    color: #F3BB45;
+    opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_sidebar\.scss}line{font-family:\0000336}}
+  .sidebar[data-active-color="danger"] .nav li.active > a,
+  .off-canvas-sidebar[data-active-color="danger"] .nav li.active > a {
+    color: #EB5E28;
+    opacity: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\00003160}}
+.main-panel {
+  background-color: #f4f3ef;
+  background-image: linear-gradient(to bottom, transparent 0%, rgba(112, 112, 112, 0) 60%, rgba(186, 186, 186, 0.15) 100%);
+  position: relative;
+  z-index: 2;
+  float: right;
+  width: calc(100% - 260px);
+  min-height: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\00003169}}
+  .main-panel > .content {
+    padding: 30px 15px;
+    min-height: calc(100% - 123px); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\00003174}}
+  .main-panel > .footer {
+    border-top: 1px solid rgba(0, 0, 0, 0.1); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\00003178}}
+  .main-panel .navbar {
+    margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_sidebar-and-main-panel\.scss}line{font-family:\00003183}}
+.sidebar,
+.main-panel {
+  overflow: auto;
+  max-height: 100%;
+  height: 100%;
+  -webkit-transition-property: top,bottom;
+  transition-property: top,bottom;
+  -webkit-transition-duration: .2s,.2s;
+  transition-duration: .2s,.2s;
+  -webkit-transition-timing-function: linear,linear;
+  transition-timing-function: linear,linear;
+  -webkit-overflow-scrolling: touch; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\000031}}
+.btn,
+.navbar .navbar-nav > li > a.btn {
+  border-radius: 20px;
+  box-sizing: border-box;
+  border-width: 2px;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 7px 18px;
+  border-color: #66615B;
+  color: #66615B;
+  -webkit-transition: all 150ms linear;
+  -moz-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  -ms-transition: all 150ms linear;
+  transition: all 150ms linear; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\000036}}
+  .btn:hover, .btn:focus, .btn:active, .btn.active, .open > .btn.dropdown-toggle,
+  .navbar .navbar-nav > li > a.btn:hover,
+  .navbar .navbar-nav > li > a.btn:focus,
+  .navbar .navbar-nav > li > a.btn:active,
+  .navbar .navbar-nav > li > a.btn.active, .open >
+  .navbar .navbar-nav > li > a.btn.dropdown-toggle {
+    background-color: #66615B;
+    color: rgba(255, 255, 255, 0.7);
+    border-color: #66615B; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000314}}
+    .btn:hover .caret, .btn:focus .caret, .btn:active .caret, .btn.active .caret, .open > .btn.dropdown-toggle .caret,
+    .navbar .navbar-nav > li > a.btn:hover .caret,
+    .navbar .navbar-nav > li > a.btn:focus .caret,
+    .navbar .navbar-nav > li > a.btn:active .caret,
+    .navbar .navbar-nav > li > a.btn.active .caret, .open >
+    .navbar .navbar-nav > li > a.btn.dropdown-toggle .caret {
+      border-top-color: rgba(255, 255, 255, 0.7); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000323}}
+  .btn.disabled, .btn.disabled:hover, .btn.disabled:focus, .btn.disabled.focus, .btn.disabled:active, .btn.disabled.active, .btn:disabled, .btn:disabled:hover, .btn:disabled:focus, .btn:disabled.focus, .btn:disabled:active, .btn:disabled.active, .btn[disabled], .btn[disabled]:hover, .btn[disabled]:focus, .btn[disabled].focus, .btn[disabled]:active, .btn[disabled].active, fieldset[disabled] .btn, fieldset[disabled] .btn:hover, fieldset[disabled] .btn:focus, fieldset[disabled] .btn.focus, fieldset[disabled] .btn:active, fieldset[disabled] .btn.active,
+  .navbar .navbar-nav > li > a.btn.disabled,
+  .navbar .navbar-nav > li > a.btn.disabled:hover,
+  .navbar .navbar-nav > li > a.btn.disabled:focus,
+  .navbar .navbar-nav > li > a.btn.disabled.focus,
+  .navbar .navbar-nav > li > a.btn.disabled:active,
+  .navbar .navbar-nav > li > a.btn.disabled.active,
+  .navbar .navbar-nav > li > a.btn:disabled,
+  .navbar .navbar-nav > li > a.btn:disabled:hover,
+  .navbar .navbar-nav > li > a.btn:disabled:focus,
+  .navbar .navbar-nav > li > a.btn:disabled.focus,
+  .navbar .navbar-nav > li > a.btn:disabled:active,
+  .navbar .navbar-nav > li > a.btn:disabled.active,
+  .navbar .navbar-nav > li > a.btn[disabled],
+  .navbar .navbar-nav > li > a.btn[disabled]:hover,
+  .navbar .navbar-nav > li > a.btn[disabled]:focus,
+  .navbar .navbar-nav > li > a.btn[disabled].focus,
+  .navbar .navbar-nav > li > a.btn[disabled]:active,
+  .navbar .navbar-nav > li > a.btn[disabled].active, fieldset[disabled]
+  .navbar .navbar-nav > li > a.btn, fieldset[disabled]
+  .navbar .navbar-nav > li > a.btn:hover, fieldset[disabled]
+  .navbar .navbar-nav > li > a.btn:focus, fieldset[disabled]
+  .navbar .navbar-nav > li > a.btn.focus, fieldset[disabled]
+  .navbar .navbar-nav > li > a.btn:active, fieldset[disabled]
+  .navbar .navbar-nav > li > a.btn.active {
+    background-color: transparent;
+    border-color: #66615B; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000335}}
+  .btn.btn-fill,
+  .navbar .navbar-nav > li > a.btn.btn-fill {
+    color: #FFFFFF;
+    background-color: #66615B;
+    opacity: 1;
+    filter: alpha(opacity=100); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000340}}
+    .btn.btn-fill:hover, .btn.btn-fill:focus, .btn.btn-fill:active, .btn.btn-fill.active, .open > .btn.btn-fill.dropdown-toggle,
+    .navbar .navbar-nav > li > a.btn.btn-fill:hover,
+    .navbar .navbar-nav > li > a.btn.btn-fill:focus,
+    .navbar .navbar-nav > li > a.btn.btn-fill:active,
+    .navbar .navbar-nav > li > a.btn.btn-fill.active, .open >
+    .navbar .navbar-nav > li > a.btn.btn-fill.dropdown-toggle {
+      background-color: #403D39;
+      color: #FFFFFF;
+      border-color: #403D39; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000350}}
+    .btn.btn-fill .caret,
+    .navbar .navbar-nav > li > a.btn.btn-fill .caret {
+      border-top-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000356}}
+  .btn.btn-simple:hover, .btn.btn-simple:focus, .btn.btn-simple:active, .btn.btn-simple.active, .open > .btn.btn-simple.dropdown-toggle,
+  .navbar .navbar-nav > li > a.btn.btn-simple:hover,
+  .navbar .navbar-nav > li > a.btn.btn-simple:focus,
+  .navbar .navbar-nav > li > a.btn.btn-simple:active,
+  .navbar .navbar-nav > li > a.btn.btn-simple.active, .open >
+  .navbar .navbar-nav > li > a.btn.btn-simple.dropdown-toggle {
+    background-color: transparent;
+    color: #403D39; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000365}}
+  .btn.btn-simple .caret,
+  .navbar .navbar-nav > li > a.btn.btn-simple .caret {
+    border-top-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000370}}
+  .btn .caret,
+  .navbar .navbar-nav > li > a.btn .caret {
+    border-top-color: #66615B; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000315}}
+  .btn:hover, .btn:focus,
+  .navbar .navbar-nav > li > a.btn:hover,
+  .navbar .navbar-nav > li > a.btn:focus {
+    outline: 0 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000319}}
+  .btn:active, .btn.active, .open > .btn.dropdown-toggle,
+  .navbar .navbar-nav > li > a.btn:active,
+  .navbar .navbar-nav > li > a.btn.active, .open >
+  .navbar .navbar-nav > li > a.btn.dropdown-toggle {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000326}}
+  .btn.btn-icon,
+  .navbar .navbar-nav > li > a.btn.btn-icon {
+    padding: 7px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000331}}
+.btn-group .btn + .btn,
+.btn-group .btn + .btn-group,
+.btn-group .btn-group + .btn,
+.btn-group .btn-group + .btn-group {
+  margin-left: -2px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000340}}
+.navbar .navbar-nav > li > a.btn-primary, .btn-primary {
+  border-color: #7A9E9F;
+  color: #7A9E9F; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\000036}}
+  .navbar .navbar-nav > li > a.btn-primary:hover, .navbar .navbar-nav > li > a.btn-primary:focus, .navbar .navbar-nav > li > a.btn-primary:active, .navbar .navbar-nav > li > a.btn-primary.active, .open > .navbar .navbar-nav > li > a.btn-primary.dropdown-toggle, .btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .btn-primary.dropdown-toggle {
+    background-color: #7A9E9F;
+    color: rgba(255, 255, 255, 0.7);
+    border-color: #7A9E9F; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000314}}
+    .navbar .navbar-nav > li > a.btn-primary:hover .caret, .navbar .navbar-nav > li > a.btn-primary:focus .caret, .navbar .navbar-nav > li > a.btn-primary:active .caret, .navbar .navbar-nav > li > a.btn-primary.active .caret, .open > .navbar .navbar-nav > li > a.btn-primary.dropdown-toggle .caret, .btn-primary:hover .caret, .btn-primary:focus .caret, .btn-primary:active .caret, .btn-primary.active .caret, .open > .btn-primary.dropdown-toggle .caret {
+      border-top-color: rgba(255, 255, 255, 0.7); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000323}}
+  .navbar .navbar-nav > li > a.btn-primary.disabled, .navbar .navbar-nav > li > a.btn-primary.disabled:hover, .navbar .navbar-nav > li > a.btn-primary.disabled:focus, .navbar .navbar-nav > li > a.btn-primary.disabled.focus, .navbar .navbar-nav > li > a.btn-primary.disabled:active, .navbar .navbar-nav > li > a.btn-primary.disabled.active, .navbar .navbar-nav > li > a.btn-primary:disabled, .navbar .navbar-nav > li > a.btn-primary:disabled:hover, .navbar .navbar-nav > li > a.btn-primary:disabled:focus, .navbar .navbar-nav > li > a.btn-primary:disabled.focus, .navbar .navbar-nav > li > a.btn-primary:disabled:active, .navbar .navbar-nav > li > a.btn-primary:disabled.active, .navbar .navbar-nav > li > a.btn-primary[disabled], .navbar .navbar-nav > li > a.btn-primary[disabled]:hover, .navbar .navbar-nav > li > a.btn-primary[disabled]:focus, .navbar .navbar-nav > li > a.btn-primary[disabled].focus, .navbar .navbar-nav > li > a.btn-primary[disabled]:active, .navbar .navbar-nav > li > a.btn-primary[disabled].active, fieldset[disabled] .navbar .navbar-nav > li > a.btn-primary, fieldset[disabled] .navbar .navbar-nav > li > a.btn-primary:hover, fieldset[disabled] .navbar .navbar-nav > li > a.btn-primary:focus, fieldset[disabled] .navbar .navbar-nav > li > a.btn-primary.focus, fieldset[disabled] .navbar .navbar-nav > li > a.btn-primary:active, fieldset[disabled] .navbar .navbar-nav > li > a.btn-primary.active, .btn-primary.disabled, .btn-primary.disabled:hover, .btn-primary.disabled:focus, .btn-primary.disabled.focus, .btn-primary.disabled:active, .btn-primary.disabled.active, .btn-primary:disabled, .btn-primary:disabled:hover, .btn-primary:disabled:focus, .btn-primary:disabled.focus, .btn-primary:disabled:active, .btn-primary:disabled.active, .btn-primary[disabled], .btn-primary[disabled]:hover, .btn-primary[disabled]:focus, .btn-primary[disabled].focus, .btn-primary[disabled]:active, .btn-primary[disabled].active, fieldset[disabled] .btn-primary, fieldset[disabled] .btn-primary:hover, fieldset[disabled] .btn-primary:focus, fieldset[disabled] .btn-primary.focus, fieldset[disabled] .btn-primary:active, fieldset[disabled] .btn-primary.active {
+    background-color: transparent;
+    border-color: #7A9E9F; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000335}}
+  .navbar .navbar-nav > li > a.btn-primary.btn-fill, .btn-primary.btn-fill {
+    color: #FFFFFF;
+    background-color: #7A9E9F;
+    opacity: 1;
+    filter: alpha(opacity=100); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000340}}
+    .navbar .navbar-nav > li > a.btn-primary.btn-fill:hover, .navbar .navbar-nav > li > a.btn-primary.btn-fill:focus, .navbar .navbar-nav > li > a.btn-primary.btn-fill:active, .navbar .navbar-nav > li > a.btn-primary.btn-fill.active, .open > .navbar .navbar-nav > li > a.btn-primary.btn-fill.dropdown-toggle, .btn-primary.btn-fill:hover, .btn-primary.btn-fill:focus, .btn-primary.btn-fill:active, .btn-primary.btn-fill.active, .open > .btn-primary.btn-fill.dropdown-toggle {
+      background-color: #427C89;
+      color: #FFFFFF;
+      border-color: #427C89; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000350}}
+    .navbar .navbar-nav > li > a.btn-primary.btn-fill .caret, .btn-primary.btn-fill .caret {
+      border-top-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000356}}
+  .navbar .navbar-nav > li > a.btn-primary.btn-simple:hover, .navbar .navbar-nav > li > a.btn-primary.btn-simple:focus, .navbar .navbar-nav > li > a.btn-primary.btn-simple:active, .navbar .navbar-nav > li > a.btn-primary.btn-simple.active, .open > .navbar .navbar-nav > li > a.btn-primary.btn-simple.dropdown-toggle, .btn-primary.btn-simple:hover, .btn-primary.btn-simple:focus, .btn-primary.btn-simple:active, .btn-primary.btn-simple.active, .open > .btn-primary.btn-simple.dropdown-toggle {
+    background-color: transparent;
+    color: #427C89; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000365}}
+  .navbar .navbar-nav > li > a.btn-primary.btn-simple .caret, .btn-primary.btn-simple .caret {
+    border-top-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000370}}
+  .navbar .navbar-nav > li > a.btn-primary .caret, .btn-primary .caret {
+    border-top-color: #7A9E9F; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000341}}
+.navbar .navbar-nav > li > a.btn-success, .btn-success {
+  border-color: #7AC29A;
+  color: #7AC29A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\000036}}
+  .navbar .navbar-nav > li > a.btn-success:hover, .navbar .navbar-nav > li > a.btn-success:focus, .navbar .navbar-nav > li > a.btn-success:active, .navbar .navbar-nav > li > a.btn-success.active, .open > .navbar .navbar-nav > li > a.btn-success.dropdown-toggle, .btn-success:hover, .btn-success:focus, .btn-success:active, .btn-success.active, .open > .btn-success.dropdown-toggle {
+    background-color: #7AC29A;
+    color: rgba(255, 255, 255, 0.7);
+    border-color: #7AC29A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000314}}
+    .navbar .navbar-nav > li > a.btn-success:hover .caret, .navbar .navbar-nav > li > a.btn-success:focus .caret, .navbar .navbar-nav > li > a.btn-success:active .caret, .navbar .navbar-nav > li > a.btn-success.active .caret, .open > .navbar .navbar-nav > li > a.btn-success.dropdown-toggle .caret, .btn-success:hover .caret, .btn-success:focus .caret, .btn-success:active .caret, .btn-success.active .caret, .open > .btn-success.dropdown-toggle .caret {
+      border-top-color: rgba(255, 255, 255, 0.7); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000323}}
+  .navbar .navbar-nav > li > a.btn-success.disabled, .navbar .navbar-nav > li > a.btn-success.disabled:hover, .navbar .navbar-nav > li > a.btn-success.disabled:focus, .navbar .navbar-nav > li > a.btn-success.disabled.focus, .navbar .navbar-nav > li > a.btn-success.disabled:active, .navbar .navbar-nav > li > a.btn-success.disabled.active, .navbar .navbar-nav > li > a.btn-success:disabled, .navbar .navbar-nav > li > a.btn-success:disabled:hover, .navbar .navbar-nav > li > a.btn-success:disabled:focus, .navbar .navbar-nav > li > a.btn-success:disabled.focus, .navbar .navbar-nav > li > a.btn-success:disabled:active, .navbar .navbar-nav > li > a.btn-success:disabled.active, .navbar .navbar-nav > li > a.btn-success[disabled], .navbar .navbar-nav > li > a.btn-success[disabled]:hover, .navbar .navbar-nav > li > a.btn-success[disabled]:focus, .navbar .navbar-nav > li > a.btn-success[disabled].focus, .navbar .navbar-nav > li > a.btn-success[disabled]:active, .navbar .navbar-nav > li > a.btn-success[disabled].active, fieldset[disabled] .navbar .navbar-nav > li > a.btn-success, fieldset[disabled] .navbar .navbar-nav > li > a.btn-success:hover, fieldset[disabled] .navbar .navbar-nav > li > a.btn-success:focus, fieldset[disabled] .navbar .navbar-nav > li > a.btn-success.focus, fieldset[disabled] .navbar .navbar-nav > li > a.btn-success:active, fieldset[disabled] .navbar .navbar-nav > li > a.btn-success.active, .btn-success.disabled, .btn-success.disabled:hover, .btn-success.disabled:focus, .btn-success.disabled.focus, .btn-success.disabled:active, .btn-success.disabled.active, .btn-success:disabled, .btn-success:disabled:hover, .btn-success:disabled:focus, .btn-success:disabled.focus, .btn-success:disabled:active, .btn-success:disabled.active, .btn-success[disabled], .btn-success[disabled]:hover, .btn-success[disabled]:focus, .btn-success[disabled].focus, .btn-success[disabled]:active, .btn-success[disabled].active, fieldset[disabled] .btn-success, fieldset[disabled] .btn-success:hover, fieldset[disabled] .btn-success:focus, fieldset[disabled] .btn-success.focus, fieldset[disabled] .btn-success:active, fieldset[disabled] .btn-success.active {
+    background-color: transparent;
+    border-color: #7AC29A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000335}}
+  .navbar .navbar-nav > li > a.btn-success.btn-fill, .btn-success.btn-fill {
+    color: #FFFFFF;
+    background-color: #7AC29A;
+    opacity: 1;
+    filter: alpha(opacity=100); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000340}}
+    .navbar .navbar-nav > li > a.btn-success.btn-fill:hover, .navbar .navbar-nav > li > a.btn-success.btn-fill:focus, .navbar .navbar-nav > li > a.btn-success.btn-fill:active, .navbar .navbar-nav > li > a.btn-success.btn-fill.active, .open > .navbar .navbar-nav > li > a.btn-success.btn-fill.dropdown-toggle, .btn-success.btn-fill:hover, .btn-success.btn-fill:focus, .btn-success.btn-fill:active, .btn-success.btn-fill.active, .open > .btn-success.btn-fill.dropdown-toggle {
+      background-color: #42A084;
+      color: #FFFFFF;
+      border-color: #42A084; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000350}}
+    .navbar .navbar-nav > li > a.btn-success.btn-fill .caret, .btn-success.btn-fill .caret {
+      border-top-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000356}}
+  .navbar .navbar-nav > li > a.btn-success.btn-simple:hover, .navbar .navbar-nav > li > a.btn-success.btn-simple:focus, .navbar .navbar-nav > li > a.btn-success.btn-simple:active, .navbar .navbar-nav > li > a.btn-success.btn-simple.active, .open > .navbar .navbar-nav > li > a.btn-success.btn-simple.dropdown-toggle, .btn-success.btn-simple:hover, .btn-success.btn-simple:focus, .btn-success.btn-simple:active, .btn-success.btn-simple.active, .open > .btn-success.btn-simple.dropdown-toggle {
+    background-color: transparent;
+    color: #42A084; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000365}}
+  .navbar .navbar-nav > li > a.btn-success.btn-simple .caret, .btn-success.btn-simple .caret {
+    border-top-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000370}}
+  .navbar .navbar-nav > li > a.btn-success .caret, .btn-success .caret {
+    border-top-color: #7AC29A; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000342}}
+.navbar .navbar-nav > li > a.btn-info, .btn-info {
+  border-color: #68B3C8;
+  color: #68B3C8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\000036}}
+  .navbar .navbar-nav > li > a.btn-info:hover, .navbar .navbar-nav > li > a.btn-info:focus, .navbar .navbar-nav > li > a.btn-info:active, .navbar .navbar-nav > li > a.btn-info.active, .open > .navbar .navbar-nav > li > a.btn-info.dropdown-toggle, .btn-info:hover, .btn-info:focus, .btn-info:active, .btn-info.active, .open > .btn-info.dropdown-toggle {
+    background-color: #68B3C8;
+    color: rgba(255, 255, 255, 0.7);
+    border-color: #68B3C8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000314}}
+    .navbar .navbar-nav > li > a.btn-info:hover .caret, .navbar .navbar-nav > li > a.btn-info:focus .caret, .navbar .navbar-nav > li > a.btn-info:active .caret, .navbar .navbar-nav > li > a.btn-info.active .caret, .open > .navbar .navbar-nav > li > a.btn-info.dropdown-toggle .caret, .btn-info:hover .caret, .btn-info:focus .caret, .btn-info:active .caret, .btn-info.active .caret, .open > .btn-info.dropdown-toggle .caret {
+      border-top-color: rgba(255, 255, 255, 0.7); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000323}}
+  .navbar .navbar-nav > li > a.btn-info.disabled, .navbar .navbar-nav > li > a.btn-info.disabled:hover, .navbar .navbar-nav > li > a.btn-info.disabled:focus, .navbar .navbar-nav > li > a.btn-info.disabled.focus, .navbar .navbar-nav > li > a.btn-info.disabled:active, .navbar .navbar-nav > li > a.btn-info.disabled.active, .navbar .navbar-nav > li > a.btn-info:disabled, .navbar .navbar-nav > li > a.btn-info:disabled:hover, .navbar .navbar-nav > li > a.btn-info:disabled:focus, .navbar .navbar-nav > li > a.btn-info:disabled.focus, .navbar .navbar-nav > li > a.btn-info:disabled:active, .navbar .navbar-nav > li > a.btn-info:disabled.active, .navbar .navbar-nav > li > a.btn-info[disabled], .navbar .navbar-nav > li > a.btn-info[disabled]:hover, .navbar .navbar-nav > li > a.btn-info[disabled]:focus, .navbar .navbar-nav > li > a.btn-info[disabled].focus, .navbar .navbar-nav > li > a.btn-info[disabled]:active, .navbar .navbar-nav > li > a.btn-info[disabled].active, fieldset[disabled] .navbar .navbar-nav > li > a.btn-info, fieldset[disabled] .navbar .navbar-nav > li > a.btn-info:hover, fieldset[disabled] .navbar .navbar-nav > li > a.btn-info:focus, fieldset[disabled] .navbar .navbar-nav > li > a.btn-info.focus, fieldset[disabled] .navbar .navbar-nav > li > a.btn-info:active, fieldset[disabled] .navbar .navbar-nav > li > a.btn-info.active, .btn-info.disabled, .btn-info.disabled:hover, .btn-info.disabled:focus, .btn-info.disabled.focus, .btn-info.disabled:active, .btn-info.disabled.active, .btn-info:disabled, .btn-info:disabled:hover, .btn-info:disabled:focus, .btn-info:disabled.focus, .btn-info:disabled:active, .btn-info:disabled.active, .btn-info[disabled], .btn-info[disabled]:hover, .btn-info[disabled]:focus, .btn-info[disabled].focus, .btn-info[disabled]:active, .btn-info[disabled].active, fieldset[disabled] .btn-info, fieldset[disabled] .btn-info:hover, fieldset[disabled] .btn-info:focus, fieldset[disabled] .btn-info.focus, fieldset[disabled] .btn-info:active, fieldset[disabled] .btn-info.active {
+    background-color: transparent;
+    border-color: #68B3C8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000335}}
+  .navbar .navbar-nav > li > a.btn-info.btn-fill, .btn-info.btn-fill {
+    color: #FFFFFF;
+    background-color: #68B3C8;
+    opacity: 1;
+    filter: alpha(opacity=100); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000340}}
+    .navbar .navbar-nav > li > a.btn-info.btn-fill:hover, .navbar .navbar-nav > li > a.btn-info.btn-fill:focus, .navbar .navbar-nav > li > a.btn-info.btn-fill:active, .navbar .navbar-nav > li > a.btn-info.btn-fill.active, .open > .navbar .navbar-nav > li > a.btn-info.btn-fill.dropdown-toggle, .btn-info.btn-fill:hover, .btn-info.btn-fill:focus, .btn-info.btn-fill:active, .btn-info.btn-fill.active, .open > .btn-info.btn-fill.dropdown-toggle {
+      background-color: #3091B2;
+      color: #FFFFFF;
+      border-color: #3091B2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000350}}
+    .navbar .navbar-nav > li > a.btn-info.btn-fill .caret, .btn-info.btn-fill .caret {
+      border-top-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000356}}
+  .navbar .navbar-nav > li > a.btn-info.btn-simple:hover, .navbar .navbar-nav > li > a.btn-info.btn-simple:focus, .navbar .navbar-nav > li > a.btn-info.btn-simple:active, .navbar .navbar-nav > li > a.btn-info.btn-simple.active, .open > .navbar .navbar-nav > li > a.btn-info.btn-simple.dropdown-toggle, .btn-info.btn-simple:hover, .btn-info.btn-simple:focus, .btn-info.btn-simple:active, .btn-info.btn-simple.active, .open > .btn-info.btn-simple.dropdown-toggle {
+    background-color: transparent;
+    color: #3091B2; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000365}}
+  .navbar .navbar-nav > li > a.btn-info.btn-simple .caret, .btn-info.btn-simple .caret {
+    border-top-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000370}}
+  .navbar .navbar-nav > li > a.btn-info .caret, .btn-info .caret {
+    border-top-color: #68B3C8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000343}}
+.navbar .navbar-nav > li > a.btn-warning, .btn-warning {
+  border-color: #F3BB45;
+  color: #F3BB45; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\000036}}
+  .navbar .navbar-nav > li > a.btn-warning:hover, .navbar .navbar-nav > li > a.btn-warning:focus, .navbar .navbar-nav > li > a.btn-warning:active, .navbar .navbar-nav > li > a.btn-warning.active, .open > .navbar .navbar-nav > li > a.btn-warning.dropdown-toggle, .btn-warning:hover, .btn-warning:focus, .btn-warning:active, .btn-warning.active, .open > .btn-warning.dropdown-toggle {
+    background-color: #F3BB45;
+    color: rgba(255, 255, 255, 0.7);
+    border-color: #F3BB45; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000314}}
+    .navbar .navbar-nav > li > a.btn-warning:hover .caret, .navbar .navbar-nav > li > a.btn-warning:focus .caret, .navbar .navbar-nav > li > a.btn-warning:active .caret, .navbar .navbar-nav > li > a.btn-warning.active .caret, .open > .navbar .navbar-nav > li > a.btn-warning.dropdown-toggle .caret, .btn-warning:hover .caret, .btn-warning:focus .caret, .btn-warning:active .caret, .btn-warning.active .caret, .open > .btn-warning.dropdown-toggle .caret {
+      border-top-color: rgba(255, 255, 255, 0.7); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000323}}
+  .navbar .navbar-nav > li > a.btn-warning.disabled, .navbar .navbar-nav > li > a.btn-warning.disabled:hover, .navbar .navbar-nav > li > a.btn-warning.disabled:focus, .navbar .navbar-nav > li > a.btn-warning.disabled.focus, .navbar .navbar-nav > li > a.btn-warning.disabled:active, .navbar .navbar-nav > li > a.btn-warning.disabled.active, .navbar .navbar-nav > li > a.btn-warning:disabled, .navbar .navbar-nav > li > a.btn-warning:disabled:hover, .navbar .navbar-nav > li > a.btn-warning:disabled:focus, .navbar .navbar-nav > li > a.btn-warning:disabled.focus, .navbar .navbar-nav > li > a.btn-warning:disabled:active, .navbar .navbar-nav > li > a.btn-warning:disabled.active, .navbar .navbar-nav > li > a.btn-warning[disabled], .navbar .navbar-nav > li > a.btn-warning[disabled]:hover, .navbar .navbar-nav > li > a.btn-warning[disabled]:focus, .navbar .navbar-nav > li > a.btn-warning[disabled].focus, .navbar .navbar-nav > li > a.btn-warning[disabled]:active, .navbar .navbar-nav > li > a.btn-warning[disabled].active, fieldset[disabled] .navbar .navbar-nav > li > a.btn-warning, fieldset[disabled] .navbar .navbar-nav > li > a.btn-warning:hover, fieldset[disabled] .navbar .navbar-nav > li > a.btn-warning:focus, fieldset[disabled] .navbar .navbar-nav > li > a.btn-warning.focus, fieldset[disabled] .navbar .navbar-nav > li > a.btn-warning:active, fieldset[disabled] .navbar .navbar-nav > li > a.btn-warning.active, .btn-warning.disabled, .btn-warning.disabled:hover, .btn-warning.disabled:focus, .btn-warning.disabled.focus, .btn-warning.disabled:active, .btn-warning.disabled.active, .btn-warning:disabled, .btn-warning:disabled:hover, .btn-warning:disabled:focus, .btn-warning:disabled.focus, .btn-warning:disabled:active, .btn-warning:disabled.active, .btn-warning[disabled], .btn-warning[disabled]:hover, .btn-warning[disabled]:focus, .btn-warning[disabled].focus, .btn-warning[disabled]:active, .btn-warning[disabled].active, fieldset[disabled] .btn-warning, fieldset[disabled] .btn-warning:hover, fieldset[disabled] .btn-warning:focus, fieldset[disabled] .btn-warning.focus, fieldset[disabled] .btn-warning:active, fieldset[disabled] .btn-warning.active {
+    background-color: transparent;
+    border-color: #F3BB45; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000335}}
+  .navbar .navbar-nav > li > a.btn-warning.btn-fill, .btn-warning.btn-fill {
+    color: #FFFFFF;
+    background-color: #F3BB45;
+    opacity: 1;
+    filter: alpha(opacity=100); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000340}}
+    .navbar .navbar-nav > li > a.btn-warning.btn-fill:hover, .navbar .navbar-nav > li > a.btn-warning.btn-fill:focus, .navbar .navbar-nav > li > a.btn-warning.btn-fill:active, .navbar .navbar-nav > li > a.btn-warning.btn-fill.active, .open > .navbar .navbar-nav > li > a.btn-warning.btn-fill.dropdown-toggle, .btn-warning.btn-fill:hover, .btn-warning.btn-fill:focus, .btn-warning.btn-fill:active, .btn-warning.btn-fill.active, .open > .btn-warning.btn-fill.dropdown-toggle {
+      background-color: #BB992F;
+      color: #FFFFFF;
+      border-color: #BB992F; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000350}}
+    .navbar .navbar-nav > li > a.btn-warning.btn-fill .caret, .btn-warning.btn-fill .caret {
+      border-top-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000356}}
+  .navbar .navbar-nav > li > a.btn-warning.btn-simple:hover, .navbar .navbar-nav > li > a.btn-warning.btn-simple:focus, .navbar .navbar-nav > li > a.btn-warning.btn-simple:active, .navbar .navbar-nav > li > a.btn-warning.btn-simple.active, .open > .navbar .navbar-nav > li > a.btn-warning.btn-simple.dropdown-toggle, .btn-warning.btn-simple:hover, .btn-warning.btn-simple:focus, .btn-warning.btn-simple:active, .btn-warning.btn-simple.active, .open > .btn-warning.btn-simple.dropdown-toggle {
+    background-color: transparent;
+    color: #BB992F; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000365}}
+  .navbar .navbar-nav > li > a.btn-warning.btn-simple .caret, .btn-warning.btn-simple .caret {
+    border-top-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000370}}
+  .navbar .navbar-nav > li > a.btn-warning .caret, .btn-warning .caret {
+    border-top-color: #F3BB45; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000344}}
+.navbar .navbar-nav > li > a.btn-danger, .btn-danger {
+  border-color: #EB5E28;
+  color: #EB5E28; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\000036}}
+  .navbar .navbar-nav > li > a.btn-danger:hover, .navbar .navbar-nav > li > a.btn-danger:focus, .navbar .navbar-nav > li > a.btn-danger:active, .navbar .navbar-nav > li > a.btn-danger.active, .open > .navbar .navbar-nav > li > a.btn-danger.dropdown-toggle, .btn-danger:hover, .btn-danger:focus, .btn-danger:active, .btn-danger.active, .open > .btn-danger.dropdown-toggle {
+    background-color: #EB5E28;
+    color: rgba(255, 255, 255, 0.7);
+    border-color: #EB5E28; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000314}}
+    .navbar .navbar-nav > li > a.btn-danger:hover .caret, .navbar .navbar-nav > li > a.btn-danger:focus .caret, .navbar .navbar-nav > li > a.btn-danger:active .caret, .navbar .navbar-nav > li > a.btn-danger.active .caret, .open > .navbar .navbar-nav > li > a.btn-danger.dropdown-toggle .caret, .btn-danger:hover .caret, .btn-danger:focus .caret, .btn-danger:active .caret, .btn-danger.active .caret, .open > .btn-danger.dropdown-toggle .caret {
+      border-top-color: rgba(255, 255, 255, 0.7); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000323}}
+  .navbar .navbar-nav > li > a.btn-danger.disabled, .navbar .navbar-nav > li > a.btn-danger.disabled:hover, .navbar .navbar-nav > li > a.btn-danger.disabled:focus, .navbar .navbar-nav > li > a.btn-danger.disabled.focus, .navbar .navbar-nav > li > a.btn-danger.disabled:active, .navbar .navbar-nav > li > a.btn-danger.disabled.active, .navbar .navbar-nav > li > a.btn-danger:disabled, .navbar .navbar-nav > li > a.btn-danger:disabled:hover, .navbar .navbar-nav > li > a.btn-danger:disabled:focus, .navbar .navbar-nav > li > a.btn-danger:disabled.focus, .navbar .navbar-nav > li > a.btn-danger:disabled:active, .navbar .navbar-nav > li > a.btn-danger:disabled.active, .navbar .navbar-nav > li > a.btn-danger[disabled], .navbar .navbar-nav > li > a.btn-danger[disabled]:hover, .navbar .navbar-nav > li > a.btn-danger[disabled]:focus, .navbar .navbar-nav > li > a.btn-danger[disabled].focus, .navbar .navbar-nav > li > a.btn-danger[disabled]:active, .navbar .navbar-nav > li > a.btn-danger[disabled].active, fieldset[disabled] .navbar .navbar-nav > li > a.btn-danger, fieldset[disabled] .navbar .navbar-nav > li > a.btn-danger:hover, fieldset[disabled] .navbar .navbar-nav > li > a.btn-danger:focus, fieldset[disabled] .navbar .navbar-nav > li > a.btn-danger.focus, fieldset[disabled] .navbar .navbar-nav > li > a.btn-danger:active, fieldset[disabled] .navbar .navbar-nav > li > a.btn-danger.active, .btn-danger.disabled, .btn-danger.disabled:hover, .btn-danger.disabled:focus, .btn-danger.disabled.focus, .btn-danger.disabled:active, .btn-danger.disabled.active, .btn-danger:disabled, .btn-danger:disabled:hover, .btn-danger:disabled:focus, .btn-danger:disabled.focus, .btn-danger:disabled:active, .btn-danger:disabled.active, .btn-danger[disabled], .btn-danger[disabled]:hover, .btn-danger[disabled]:focus, .btn-danger[disabled].focus, .btn-danger[disabled]:active, .btn-danger[disabled].active, fieldset[disabled] .btn-danger, fieldset[disabled] .btn-danger:hover, fieldset[disabled] .btn-danger:focus, fieldset[disabled] .btn-danger.focus, fieldset[disabled] .btn-danger:active, fieldset[disabled] .btn-danger.active {
+    background-color: transparent;
+    border-color: #EB5E28; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000335}}
+  .navbar .navbar-nav > li > a.btn-danger.btn-fill, .btn-danger.btn-fill {
+    color: #FFFFFF;
+    background-color: #EB5E28;
+    opacity: 1;
+    filter: alpha(opacity=100); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000340}}
+    .navbar .navbar-nav > li > a.btn-danger.btn-fill:hover, .navbar .navbar-nav > li > a.btn-danger.btn-fill:focus, .navbar .navbar-nav > li > a.btn-danger.btn-fill:active, .navbar .navbar-nav > li > a.btn-danger.btn-fill.active, .open > .navbar .navbar-nav > li > a.btn-danger.btn-fill.dropdown-toggle, .btn-danger.btn-fill:hover, .btn-danger.btn-fill:focus, .btn-danger.btn-fill:active, .btn-danger.btn-fill.active, .open > .btn-danger.btn-fill.dropdown-toggle {
+      background-color: #B33C12;
+      color: #FFFFFF;
+      border-color: #B33C12; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000350}}
+    .navbar .navbar-nav > li > a.btn-danger.btn-fill .caret, .btn-danger.btn-fill .caret {
+      border-top-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000356}}
+  .navbar .navbar-nav > li > a.btn-danger.btn-simple:hover, .navbar .navbar-nav > li > a.btn-danger.btn-simple:focus, .navbar .navbar-nav > li > a.btn-danger.btn-simple:active, .navbar .navbar-nav > li > a.btn-danger.btn-simple.active, .open > .navbar .navbar-nav > li > a.btn-danger.btn-simple.dropdown-toggle, .btn-danger.btn-simple:hover, .btn-danger.btn-simple:focus, .btn-danger.btn-simple:active, .btn-danger.btn-simple.active, .open > .btn-danger.btn-simple.dropdown-toggle {
+    background-color: transparent;
+    color: #B33C12; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000365}}
+  .navbar .navbar-nav > li > a.btn-danger.btn-simple .caret, .btn-danger.btn-simple .caret {
+    border-top-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000370}}
+  .navbar .navbar-nav > li > a.btn-danger .caret, .btn-danger .caret {
+    border-top-color: #EB5E28; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000345}}
+.btn-neutral {
+  border-color: #FFFFFF;
+  color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\000036}}
+  .btn-neutral:hover, .btn-neutral:focus, .btn-neutral:active, .btn-neutral.active, .open > .btn-neutral.dropdown-toggle {
+    background-color: #FFFFFF;
+    color: rgba(255, 255, 255, 0.7);
+    border-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000314}}
+    .btn-neutral:hover .caret, .btn-neutral:focus .caret, .btn-neutral:active .caret, .btn-neutral.active .caret, .open > .btn-neutral.dropdown-toggle .caret {
+      border-top-color: rgba(255, 255, 255, 0.7); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000323}}
+  .btn-neutral.disabled, .btn-neutral.disabled:hover, .btn-neutral.disabled:focus, .btn-neutral.disabled.focus, .btn-neutral.disabled:active, .btn-neutral.disabled.active, .btn-neutral:disabled, .btn-neutral:disabled:hover, .btn-neutral:disabled:focus, .btn-neutral:disabled.focus, .btn-neutral:disabled:active, .btn-neutral:disabled.active, .btn-neutral[disabled], .btn-neutral[disabled]:hover, .btn-neutral[disabled]:focus, .btn-neutral[disabled].focus, .btn-neutral[disabled]:active, .btn-neutral[disabled].active, fieldset[disabled] .btn-neutral, fieldset[disabled] .btn-neutral:hover, fieldset[disabled] .btn-neutral:focus, fieldset[disabled] .btn-neutral.focus, fieldset[disabled] .btn-neutral:active, fieldset[disabled] .btn-neutral.active {
+    background-color: transparent;
+    border-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000335}}
+  .btn-neutral.btn-fill {
+    color: #FFFFFF;
+    background-color: #FFFFFF;
+    opacity: 1;
+    filter: alpha(opacity=100); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000340}}
+    .btn-neutral.btn-fill:hover, .btn-neutral.btn-fill:focus, .btn-neutral.btn-fill:active, .btn-neutral.btn-fill.active, .open > .btn-neutral.btn-fill.dropdown-toggle {
+      background-color: #FFFFFF;
+      color: #FFFFFF;
+      border-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000350}}
+    .btn-neutral.btn-fill .caret {
+      border-top-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000356}}
+  .btn-neutral.btn-simple:hover, .btn-neutral.btn-simple:focus, .btn-neutral.btn-simple:active, .btn-neutral.btn-simple.active, .open > .btn-neutral.btn-simple.dropdown-toggle {
+    background-color: transparent;
+    color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000365}}
+  .btn-neutral.btn-simple .caret {
+    border-top-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000370}}
+  .btn-neutral .caret {
+    border-top-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000348}}
+  .btn-neutral:hover, .btn-neutral:focus {
+    color: #66615B; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000353}}
+  .btn-neutral:active, .btn-neutral.active, .open > .btn-neutral.dropdown-toggle {
+    background-color: #FFFFFF;
+    color: #66615B; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000360}}
+  .btn-neutral.btn-fill {
+    color: #66615B; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000363}}
+  .btn-neutral.btn-fill:hover, .btn-neutral.btn-fill:focus {
+    color: #403D39; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000368}}
+  .btn-neutral.btn-simple:active, .btn-neutral.btn-simple.active {
+    background-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000375}}
+.btn:disabled, .btn[disabled], .btn.disabled {
+  opacity: 0.5;
+  filter: alpha(opacity=50); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000381}}
+.btn-simple {
+  border: 0;
+  padding: 7px 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000385}}
+  .btn-simple.btn-icon {
+    padding: 7px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000389}}
+.btn-lg {
+  font-size: 18px;
+  border-radius: 50px;
+  padding: 11px 30px;
+  font-weight: 400; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000381}}
+  .btn-lg.btn-simple {
+    padding: 13px 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000393}}
+.btn-sm {
+  font-size: 12px;
+  border-radius: 26px;
+  padding: 4px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000381}}
+  .btn-sm.btn-simple {
+    padding: 6px 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000396}}
+.btn-xs {
+  font-size: 12px;
+  border-radius: 26px;
+  padding: 2px 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/mixins\/_buttons\.scss}line{font-family:\0000381}}
+  .btn-xs.btn-simple {
+    padding: 4px 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\0000399}}
+.btn-wd {
+  min-width: 140px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\00003103}}
+.btn-group.select {
+  width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\00003106}}
+.btn-group.select .btn {
+  text-align: left; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_buttons\.scss}line{font-family:\00003109}}
+.btn-group.select .caret {
+  position: absolute;
+  top: 50%;
+  margin-top: -1px;
+  right: 8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\000031}}
+.form-control::-moz-placeholder {
+  color: #DDDDDD;
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\000034}}
+.form-control:-moz-placeholder {
+  color: #DDDDDD;
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\000037}}
+.form-control::-webkit-input-placeholder {
+  color: #DDDDDD;
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000310}}
+.form-control:-ms-input-placeholder {
+  color: #DDDDDD;
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000314}}
+.form-control {
+  background-color: #fffcf5;
+  border: medium none;
+  border-radius: 4px;
+  color: #66615b;
+  font-size: 14px;
+  transition: background-color 0.3s ease 0s;
+  padding: 7px 18px;
+  height: 40px;
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000324}}
+  .form-control:focus {
+    background-color: #FFFFFF;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    outline: 0 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000330}}
+  .has-success .form-control, .has-error .form-control, .has-success .form-control:focus, .has-error .form-control:focus {
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000337}}
+  .has-success .form-control {
+    background-color: #ABF3CB;
+    color: #7AC29A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000340}}
+    .has-success .form-control.border-input {
+      border: 1px solid #7AC29A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000344}}
+  .has-success .form-control:focus {
+    background-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000347}}
+  .has-error .form-control {
+    background-color: #FFC0A4;
+    color: #EB5E28; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000350}}
+    .has-error .form-control.border-input {
+      border: 1px solid #EB5E28; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000354}}
+  .has-error .form-control:focus {
+    background-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000358}}
+  .form-control + .form-control-feedback {
+    border-radius: 6px;
+    font-size: 14px;
+    margin-top: -7px;
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000367}}
+  .form-control.border-input {
+    border: 1px solid #CCC5B9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000370}}
+  .open .form-control {
+    border-bottom-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000375}}
+.input-lg {
+  height: 55px;
+  padding: 11px 30px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000381}}
+.has-error .form-control-feedback, .has-error .control-label {
+  color: #EB5E28; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000386}}
+.has-success .form-control-feedback, .has-success .control-label {
+  color: #7AC29A; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000392}}
+.input-group-addon {
+  background-color: #fffcf5;
+  border: medium none;
+  border-radius: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\0000398}}
+  .has-success .input-group-addon, .has-error .input-group-addon {
+    background-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\00003102}}
+  .has-error .form-control:focus + .input-group-addon {
+    color: #EB5E28; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\00003105}}
+  .has-success .form-control:focus + .input-group-addon {
+    color: #7AC29A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\00003108}}
+  .form-control:focus + .input-group-addon, .form-control:focus ~ .input-group-addon {
+    background-color: #FFFFFF; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\00003114}}
+.border-input .input-group-addon {
+  border: solid 1px #CCC5B9; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\00003118}}
+.input-group {
+  margin-bottom: 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\00003122}}
+.input-group[disabled] .input-group-addon {
+  background-color: #E3E3E3; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\00003126}}
+.input-group .form-control:first-child,
+.input-group-addon:first-child,
+.input-group-btn:first-child > .dropdown-toggle,
+.input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle) {
+  border-right: 0 none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\00003132}}
+.input-group .form-control:last-child,
+.input-group-addon:last-child,
+.input-group-btn:last-child > .dropdown-toggle,
+.input-group-btn:first-child > .btn:not(:first-child) {
+  border-left: 0 none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\00003138}}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+  background-color: #E3E3E3;
+  cursor: not-allowed;
+  color: #9A9A9A;
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\00003143}}
+.form-control[disabled]::-moz-placeholder {
+  color: #9A9A9A;
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\00003146}}
+.form-control[disabled]:-moz-placeholder {
+  color: #DDDDDD;
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\00003149}}
+.form-control[disabled]::-webkit-input-placeholder {
+  color: #DDDDDD;
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\00003152}}
+.form-control[disabled]:-ms-input-placeholder {
+  color: #DDDDDD;
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\00003155}}
+.input-group-btn .btn {
+  border-width: 1px;
+  padding: 9px 18px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\00003159}}
+.input-group-btn .btn-default:not(.btn-fill) {
+  border-color: #DDDDDD; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\00003163}}
+.input-group-btn:last-child > .btn {
+  margin-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_inputs\.scss}line{font-family:\00003166}}
+textarea.form-control {
+  max-width: 100%;
+  padding: 10px 18px;
+  resize: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_alerts\.scss}line{font-family:\000031}}
+.alert {
+  border: 0;
+  border-radius: 0;
+  color: #FFFFFF;
+  padding: 10px 15px;
+  font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_alerts\.scss}line{font-family:\000038}}
+  .container .alert {
+    border-radius: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_alerts\.scss}line{font-family:\0000312}}
+  .navbar .alert {
+    border-radius: 0;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 85px;
+    width: 100%;
+    z-index: 3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_alerts\.scss}line{font-family:\0000321}}
+  .navbar:not(.navbar-transparent) .alert {
+    top: 70px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_alerts\.scss}line{font-family:\0000325}}
+  .alert span[data-notify="icon"] {
+    font-size: 30px;
+    display: block;
+    left: 15px;
+    position: absolute;
+    top: 50%;
+    margin-top: -20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_alerts\.scss}line{font-family:\0000334}}
+  .alert .close ~ span {
+    display: block;
+    max-width: 89%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_alerts\.scss}line{font-family:\0000339}}
+  .alert[data-notify="container"] {
+    padding: 10px 10px 10px 20px;
+    border-radius: 4px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_alerts\.scss}line{font-family:\0000344}}
+  .alert.alert-with-icon {
+    padding-left: 65px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_alerts\.scss}line{font-family:\0000348}}
+.alert-info {
+  background-color: #7CE4FE;
+  color: #3091B2; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_alerts\.scss}line{font-family:\0000352}}
+.alert-success {
+  background-color: #8EF3C5;
+  color: #42A084; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_alerts\.scss}line{font-family:\0000356}}
+.alert-warning {
+  background-color: #FFE28C;
+  color: #BB992F; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_alerts\.scss}line{font-family:\0000360}}
+.alert-danger {
+  background-color: #FF8F5E;
+  color: #B33C12; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_tables\.scss}line{font-family:\000035}}
+.table thead tr > th,
+.table thead tr > td,
+.table tbody tr > th,
+.table tbody tr > td,
+.table tfoot tr > th,
+.table tfoot tr > td {
+  border-top: 1px solid #CCC5B9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_tables\.scss}line{font-family:\0000310}}
+.table > thead > tr > th {
+  border-bottom-width: 0;
+  font-size: 1.25em;
+  font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_tables\.scss}line{font-family:\0000316}}
+.table .radio,
+.table .checkbox {
+  margin-top: 0;
+  margin-bottom: 22px;
+  padding: 0;
+  width: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_tables\.scss}line{font-family:\0000323}}
+.table > thead > tr > th,
+.table > tbody > tr > th,
+.table > tfoot > tr > th,
+.table > thead > tr > td,
+.table > tbody > tr > td,
+.table > tfoot > tr > td {
+  padding: 12px;
+  vertical-align: middle; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_tables\.scss}line{font-family:\0000333}}
+.table .th-description {
+  max-width: 150px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_tables\.scss}line{font-family:\0000336}}
+.table .td-price {
+  font-size: 26px;
+  font-weight: 300;
+  margin-top: 5px;
+  text-align: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_tables\.scss}line{font-family:\0000342}}
+.table .td-total {
+  font-weight: 600;
+  font-size: 1.25em;
+  padding-top: 20px;
+  text-align: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_tables\.scss}line{font-family:\0000351}}
+.table .td-actions .btn.btn-sm, .table .td-actions .btn.btn-xs {
+  padding-left: 3px;
+  padding-right: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_tables\.scss}line{font-family:\0000358}}
+.table > tbody > tr {
+  position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_tables\.scss}line{font-family:\0000363}}
+.table-striped tbody > tr:nth-of-type(2n+1) {
+  background-color: #fff; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_tables\.scss}line{font-family:\0000366}}
+.table-striped tbody > tr:nth-of-type(2n) {
+  background-color: #FFFCF5; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_tables\.scss}line{font-family:\0000369}}
+.table-striped > thead > tr > th,
+.table-striped > tbody > tr > th,
+.table-striped > tfoot > tr > th,
+.table-striped > thead > tr > td,
+.table-striped > tbody > tr > td,
+.table-striped > tfoot > tr > td {
+  padding: 15px 8px; }
+
+/*      Checkbox and radio         */
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\000032}}
+.checkbox,
+.radio {
+  margin-bottom: 12px;
+  padding-left: 30px;
+  position: relative;
+  -webkit-transition: color,opacity 0.25s linear;
+  transition: color,opacity 0.25s linear;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 1.5;
+  color: #66615b;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\0000315}}
+  .checkbox .icons,
+  .radio .icons {
+    color: #66615b;
+    display: block;
+    height: 20px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 20px;
+    text-align: center;
+    line-height: 21px;
+    font-size: 20px;
+    cursor: pointer;
+    -webkit-transition: color,opacity 0.15s linear;
+    transition: color,opacity 0.15s linear;
+    opacity: .50; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\0000335}}
+  .checkbox.checked .icons,
+  .radio.checked .icons {
+    opacity: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\0000340}}
+  .checkbox input,
+  .radio input {
+    outline: none !important;
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\0000348}}
+.checkbox label,
+.radio label {
+  padding-left: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\0000353}}
+.checkbox .icons .first-icon,
+.radio .icons .first-icon,
+.checkbox .icons .second-icon,
+.radio .icons .second-icon {
+  display: inline-table;
+  position: absolute;
+  left: 0;
+  top: 0;
+  background-color: transparent;
+  margin: 0;
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\0000365}}
+.checkbox .icons .second-icon,
+.radio .icons .second-icon {
+  opacity: 0;
+  filter: alpha(opacity=0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\0000369}}
+.checkbox:hover,
+.radio:hover {
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\0000374}}
+.checkbox:hover .first-icon,
+.radio:hover .first-icon {
+  opacity: 0;
+  filter: alpha(opacity=0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\0000378}}
+.checkbox:hover .second-icon,
+.radio:hover .second-icon {
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\0000386}}
+.checkbox.checked .first-icon,
+.radio.checked .first-icon {
+  opacity: 0;
+  filter: alpha(opacity=0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\0000391}}
+.checkbox.checked .second-icon,
+.radio.checked .second-icon {
+  opacity: 1;
+  filter: alpha(opacity=100);
+  -webkit-transition: color 0.2s linear;
+  transition: color 0.2s linear; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\0000399}}
+.checkbox.disabled,
+.radio.disabled {
+  cursor: default;
+  color: #DDDDDD; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\00003104}}
+.checkbox.disabled .icons,
+.radio.disabled .icons {
+  color: #DDDDDD; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\00003108}}
+.checkbox.disabled .first-icon,
+.radio.disabled .first-icon {
+  opacity: 1;
+  filter: alpha(opacity=100); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\00003113}}
+.checkbox.disabled .second-icon,
+.radio.disabled .second-icon {
+  opacity: 0;
+  filter: alpha(opacity=0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\00003118}}
+.checkbox.disabled.checked .icons,
+.radio.disabled.checked .icons {
+  color: #DDDDDD; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\00003122}}
+.checkbox.disabled.checked .first-icon,
+.radio.disabled.checked .first-icon {
+  opacity: 0;
+  filter: alpha(opacity=0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_checkbox-radio\.scss}line{font-family:\00003127}}
+.checkbox.disabled.checked .second-icon,
+.radio.disabled.checked .second-icon {
+  opacity: 1;
+  color: #DDDDDD;
+  filter: alpha(opacity=100); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\000033}}
+.nav > li > a:hover,
+.nav > li > a:focus {
+  background-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\000039}}
+.navbar {
+  border: 0;
+  border-radius: 0;
+  font-size: 16px;
+  z-index: 3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\0000315}}
+  .navbar .navbar-brand {
+    font-weight: 600;
+    margin: 5px 0px;
+    padding: 20px 15px;
+    font-size: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\0000322}}
+  .navbar .navbar-nav > li > a {
+    line-height: 1.42857;
+    margin: 15px 0px;
+    padding: 10px 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\0000327}}
+    .navbar .navbar-nav > li > a i,
+    .navbar .navbar-nav > li > a p {
+      display: inline-block;
+      margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\0000332}}
+    .navbar .navbar-nav > li > a i {
+      position: relative;
+      top: 1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\0000337}}
+  .navbar .navbar-nav > li > a.btn {
+    margin: 15px 3px;
+    padding: 7px 18px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\0000342}}
+  .navbar .btn {
+    margin: 15px 3px;
+    font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\0000346}}
+  .navbar .btn-simple {
+    font-size: 16px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\0000351}}
+.navbar-nav > li > .dropdown-menu {
+  border-radius: 6px;
+  margin-top: -5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\0000356}}
+.navbar-default {
+  background-color: #f4f3ef;
+  border-bottom: 1px solid #DDDDDD; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\0000360}}
+  .navbar-default .brand {
+    color: #66615b !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\0000364}}
+  .navbar-default .navbar-nav > li > a:not(.btn) {
+    color: #9A9A9A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\0000368}}
+  .navbar-default .navbar-nav > .active > a,
+  .navbar-default .navbar-nav > .active > a:not(.btn):hover,
+  .navbar-default .navbar-nav > .active > a:not(.btn):focus,
+  .navbar-default .navbar-nav > li > a:not(.btn):hover,
+  .navbar-default .navbar-nav > li > a:not(.btn):focus {
+    background-color: transparent;
+    border-radius: 3px;
+    color: #68B3C8;
+    opacity: 1;
+    filter: alpha(opacity=100); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\0000379}}
+  .navbar-default .navbar-nav > .dropdown > a:hover .caret,
+  .navbar-default .navbar-nav > .dropdown > a:focus .caret {
+    border-bottom-color: #68B3C8;
+    border-top-color: #68B3C8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\0000386}}
+  .navbar-default .navbar-nav > .open > a,
+  .navbar-default .navbar-nav > .open > a:hover,
+  .navbar-default .navbar-nav > .open > a:focus {
+    background-color: transparent;
+    color: #68B3C8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\0000393}}
+  .navbar-default .navbar-nav .navbar-toggle:hover, .navbar-default .navbar-nav .navbar-toggle:focus {
+    background-color: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\0000399}}
+  .navbar-default:not(.navbar-transparent) .btn-default:hover {
+    color: #68B3C8;
+    border-color: #68B3C8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\00003103}}
+  .navbar-default:not(.navbar-transparent) .btn-neutral, .navbar-default:not(.navbar-transparent) .btn-neutral:hover, .navbar-default:not(.navbar-transparent) .btn-neutral:active {
+    color: #9A9A9A; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\00003110}}
+.navbar-form {
+  -webkit-box-shadow: none;
+  box-shadow: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\00003112}}
+  .navbar-form .form-control {
+    border-radius: 0;
+    border: 0;
+    padding: 0;
+    background-color: transparent;
+    height: 22px;
+    font-size: 16px;
+    line-height: 1.4em;
+    color: #E3E3E3; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\00003119}}
+  .navbar-transparent .navbar-form .form-control, [class*="navbar-ct"] .navbar-form .form-control {
+    color: #FFFFFF;
+    border: 0;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\00003128}}
+.navbar-ct-primary {
+  background-color: #8ECFD5; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\00003131}}
+.navbar-ct-info {
+  background-color: #7CE4FE; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\00003134}}
+.navbar-ct-success {
+  background-color: #8EF3C5; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\00003137}}
+.navbar-ct-warning {
+  background-color: #FFE28C; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\00003140}}
+.navbar-ct-danger {
+  background-color: #FF8F5E; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\00003144}}
+.navbar-transparent {
+  padding-top: 15px;
+  background-color: transparent;
+  border-bottom: 1px solid transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\00003150}}
+.navbar-toggle {
+  margin-top: 19px;
+  margin-bottom: 19px;
+  border: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\00003155}}
+  .navbar-toggle .icon-bar {
+    background-color: #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\00003158}}
+  .navbar-toggle .navbar-collapse,
+  .navbar-toggle .navbar-form {
+    border-color: transparent; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_navbars\.scss}line{font-family:\00003163}}
+  .navbar-toggle.navbar-default .navbar-toggle:hover, .navbar-toggle.navbar-default .navbar-toggle:focus {
+    background-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_footers\.scss}line{font-family:\000031}}
+.footer {
+  background-attachment: fixed;
+  position: relative;
+  line-height: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_footers\.scss}line{font-family:\000036}}
+  .footer nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-weight: normal; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_footers\.scss}line{font-family:\0000311}}
+    .footer nav ul li {
+      display: inline-block;
+      padding: 10px 15px;
+      margin: 15px 3px;
+      line-height: 20px;
+      text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_footers\.scss}line{font-family:\0000318}}
+    .footer nav ul a:not(.btn) {
+      color: #66615b;
+      display: block;
+      margin-bottom: 3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_footers\.scss}line{font-family:\0000323}}
+      .footer nav ul a:not(.btn):focus, .footer nav ul a:not(.btn):hover {
+        color: #403D39; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_footers\.scss}line{font-family:\0000330}}
+  .footer .copyright {
+    color: #66615b;
+    padding: 10px 15px;
+    font-size: 14px;
+    margin: 15px 3px;
+    line-height: 20px;
+    text-align: center; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_footers\.scss}line{font-family:\0000338}}
+  .footer .heart {
+    color: #EB5E28; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\000031}}
+.dropdown-menu {
+  background-color: #FFFCF5;
+  border: 0 none;
+  border-radius: 6px;
+  display: block;
+  margin-top: 10px;
+  padding: 0px;
+  position: absolute;
+  visibility: hidden;
+  z-index: 9000;
+  opacity: 0;
+  filter: alpha(opacity=0);
+  -webkit-box-shadow: 0 2px rgba(17, 16, 15, 0.1), 0 2px 10px rgba(17, 16, 15, 0.1);
+  box-shadow: 0 2px rgba(17, 16, 15, 0.1), 0 2px 10px rgba(17, 16, 15, 0.1); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\0000316}}
+  .open .dropdown-menu {
+    opacity: 1;
+    filter: alpha(opacity=100);
+    visibility: visible; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\0000321}}
+  .dropdown-menu .divider {
+    background-color: #F1EAE0;
+    margin: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\0000326}}
+  .dropdown-menu .dropdown-header {
+    color: #9A9A9A;
+    font-size: 12px;
+    padding: 10px 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\0000333}}
+  .select .dropdown-menu {
+    border-radius: 0 0 10px 10px;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transform-origin: 50% -40px;
+    -moz-transform-origin: 50% -40px;
+    -o-transform-origin: 50% -40px;
+    -ms-transform-origin: 50% -40px;
+    transform-origin: 50% -40px;
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -o-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-transition: all 150ms linear;
+    -moz-transition: all 150ms linear;
+    -o-transition: all 150ms linear;
+    -ms-transition: all 150ms linear;
+    transition: all 150ms linear;
+    margin-top: -20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\0000341}}
+  .select.open .dropdown-menu {
+    margin-top: -1px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\0000345}}
+  .dropdown-menu > li > a {
+    color: #66615b;
+    font-size: 14px;
+    padding: 10px 15px;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    -ms-transition: none;
+    transition: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\0000351}}
+    .dropdown-menu > li > a img {
+      margin-top: -3px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\0000355}}
+  .dropdown-menu > li > a:focus {
+    outline: 0 !important; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\0000359}}
+  .btn-group.select .dropdown-menu {
+    min-width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\0000363}}
+  .dropdown-menu > li:first-child > a {
+    border-top-left-radius: 6px;
+    border-top-right-radius: 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\0000368}}
+  .dropdown-menu > li:last-child > a {
+    border-bottom-left-radius: 6px;
+    border-bottom-right-radius: 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\0000373}}
+  .select .dropdown-menu > li:first-child > a {
+    border-radius: 0;
+    border-bottom: 0 none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\0000378}}
+  .dropdown-menu > li > a:hover,
+  .dropdown-menu > li > a:focus {
+    background-color: #66615B;
+    color: rgba(255, 255, 255, 0.7);
+    opacity: 1;
+    text-decoration: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\0000386}}
+  .dropdown-menu.dropdown-primary > li > a:hover, .dropdown-menu.dropdown-primary > li > a:focus {
+    background-color: #7A9E9F; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\0000390}}
+  .dropdown-menu.dropdown-info > li > a:hover, .dropdown-menu.dropdown-info > li > a:focus {
+    background-color: #68B3C8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\0000394}}
+  .dropdown-menu.dropdown-success > li > a:hover, .dropdown-menu.dropdown-success > li > a:focus {
+    background-color: #7AC29A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\0000398}}
+  .dropdown-menu.dropdown-warning > li > a:hover, .dropdown-menu.dropdown-warning > li > a:focus {
+    background-color: #F3BB45; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\00003102}}
+  .dropdown-menu.dropdown-danger > li > a:hover, .dropdown-menu.dropdown-danger > li > a:focus {
+    background-color: #EB5E28; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\00003110}}
+.btn-group.select {
+  overflow: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_dropdown\.scss}line{font-family:\00003113}}
+.btn-group.select.open {
+  overflow: visible; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\000031}}
+.card {
+  border-radius: 6px;
+  box-shadow: 0 2px 2px rgba(204, 197, 185, 0.5);
+  background-color: #FFFFFF;
+  color: #252422;
+  margin-bottom: 20px;
+  position: relative;
+  z-index: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000310}}
+  .card .image {
+    width: 100%;
+    overflow: hidden;
+    height: 260px;
+    border-radius: 6px 6px 0 0;
+    position: relative;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    transform-style: preserve-3d; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000320}}
+    .card .image img {
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000324}}
+  .card .content {
+    padding: 15px 15px 10px 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000327}}
+  .card .header {
+    padding: 20px 20px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000330}}
+  .card .description {
+    font-size: 16px;
+    color: #66615b; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000335}}
+  .card h6 {
+    font-size: 12px;
+    margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000339}}
+  .card .category,
+  .card label {
+    font-size: 14px;
+    font-weight: 400;
+    color: #9A9A9A;
+    margin-bottom: 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000345}}
+    .card .category i,
+    .card label i {
+      font-size: 16px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000350}}
+  .card label {
+    font-size: 15px;
+    margin-bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000355}}
+  .card .title {
+    margin: 0;
+    color: #252422;
+    font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000360}}
+  .card .avatar {
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin-right: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000367}}
+  .card .footer {
+    padding: 0;
+    line-height: 30px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000371}}
+    .card .footer .legend {
+      padding: 5px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000375}}
+    .card .footer hr {
+      margin-top: 5px;
+      margin-bottom: 5px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000380}}
+  .card .stats {
+    color: #a9a9a9;
+    font-weight: 300; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000383}}
+    .card .stats i {
+      margin-right: 2px;
+      min-width: 15px;
+      display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000389}}
+  .card .footer div {
+    display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000393}}
+  .card .author {
+    font-size: 12px;
+    font-weight: 600;
+    text-transform: uppercase; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\0000398}}
+  .card .author i {
+    font-size: 14px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003102}}
+  .card.card-separator:after {
+    height: 100%;
+    right: -15px;
+    top: 0;
+    width: 1px;
+    background-color: #DDDDDD;
+    content: "";
+    position: absolute; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003112}}
+  .card .ct-chart {
+    margin: 30px 0 30px;
+    height: 245px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003118}}
+  .card .table tbody td:first-child,
+  .card .table thead th:first-child {
+    padding-left: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003123}}
+  .card .table tbody td:last-child,
+  .card .table thead th:last-child {
+    padding-right: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003129}}
+  .card .alert {
+    border-radius: 4px;
+    position: relative; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003133}}
+    .card .alert.alert-with-icon {
+      padding-left: 65px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003137}}
+  .card .icon-big {
+    font-size: 3em;
+    min-height: 64px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003141}}
+  .card .numbers {
+    font-size: 2em;
+    text-align: right; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003144}}
+    .card .numbers p {
+      margin: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003149}}
+  .card ul.team-members li {
+    padding: 10px 0px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003151}}
+    .card ul.team-members li:not(:last-child) {
+      border-bottom: 1px solid #F1EAE0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003158}}
+.card-user .image {
+  border-radius: 8px 8px 0 0;
+  height: 150px;
+  position: relative;
+  overflow: hidden; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003164}}
+  .card-user .image img {
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003168}}
+.card-user .image-plain {
+  height: 0;
+  margin-top: 110px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003172}}
+.card-user .author {
+  text-align: center;
+  text-transform: none;
+  margin-top: -65px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003176}}
+  .card-user .author .title {
+    color: #403D39; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003178}}
+    .card-user .author .title small {
+      color: #ccc5b9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003183}}
+.card-user .avatar {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003190}}
+  .card-user .avatar.border-white {
+    border: 5px solid #FFFFFF; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003193}}
+  .card-user .avatar.border-gray {
+    border: 5px solid #ccc5b9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003197}}
+.card-user .title {
+  font-weight: 600;
+  line-height: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003201}}
+.card-user .description {
+  margin-top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003204}}
+.card-user .content {
+  min-height: 200px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003209}}
+.card-user.card-plain .avatar {
+  height: 190px;
+  width: 190px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003217}}
+.card-map .map {
+  height: 500px;
+  padding-top: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003221}}
+  .card-map .map > div {
+    height: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003228}}
+.card-user .footer,
+.card-price .footer {
+  padding: 5px 15px 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003231}}
+.card-user hr,
+.card-price hr {
+  margin: 5px 15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003235}}
+.card-plain {
+  background-color: transparent;
+  box-shadow: none;
+  border-radius: 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_cards\.scss}line{font-family:\00003240}}
+  .card-plain .image {
+    border-radius: 4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003115}}
+.ct-label {
+  fill: rgba(0, 0, 0, 0.4);
+  color: rgba(0, 0, 0, 0.4);
+  font-size: 0.9em;
+  line-height: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003119}}
+.ct-chart-line .ct-label,
+.ct-chart-bar .ct-label {
+  display: block;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003124}}
+.ct-label.ct-horizontal.ct-start {
+  -webkit-box-align: flex-end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  -webkit-box-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  text-anchor: start; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003130}}
+.ct-label.ct-horizontal.ct-end {
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  text-anchor: start; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003136}}
+.ct-label.ct-vertical.ct-start {
+  -webkit-box-align: flex-end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  -webkit-box-pack: flex-end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: flex-end;
+  justify-content: flex-end;
+  text-align: right;
+  text-anchor: end; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003142}}
+.ct-label.ct-vertical.ct-end {
+  -webkit-box-align: flex-end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  -webkit-box-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  text-anchor: start; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003148}}
+.ct-chart-bar .ct-label.ct-horizontal.ct-start {
+  -webkit-box-align: flex-end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  text-anchor: start; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003154}}
+.ct-chart-bar .ct-label.ct-horizontal.ct-end {
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  text-align: center;
+  text-anchor: start; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003160}}
+.ct-chart-bar.ct-horizontal-bars .ct-label.ct-horizontal.ct-start {
+  -webkit-box-align: flex-end;
+  -webkit-align-items: flex-end;
+  -ms-flex-align: flex-end;
+  align-items: flex-end;
+  -webkit-box-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  text-anchor: start; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003166}}
+.ct-chart-bar.ct-horizontal-bars .ct-label.ct-horizontal.ct-end {
+  -webkit-box-align: flex-start;
+  -webkit-align-items: flex-start;
+  -ms-flex-align: flex-start;
+  align-items: flex-start;
+  -webkit-box-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  text-anchor: start; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003172}}
+.ct-chart-bar.ct-horizontal-bars .ct-label.ct-vertical.ct-start {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: flex-end;
+  -webkit-justify-content: flex-end;
+  -ms-flex-pack: flex-end;
+  justify-content: flex-end;
+  text-align: right;
+  text-anchor: end; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003179}}
+.ct-chart-bar.ct-horizontal-bars .ct-label.ct-vertical.ct-end {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: flex-start;
+  -webkit-justify-content: flex-start;
+  -ms-flex-pack: flex-start;
+  justify-content: flex-start;
+  text-align: left;
+  text-anchor: end; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003185}}
+.ct-grid {
+  stroke: rgba(0, 0, 0, 0.2);
+  stroke-width: 1px;
+  stroke-dasharray: 2px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003189}}
+.ct-point {
+  stroke-width: 10px;
+  stroke-linecap: round; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003193}}
+.ct-line {
+  fill: none;
+  stroke-width: 4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003197}}
+.ct-area {
+  stroke: none;
+  fill-opacity: 0.7; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003201}}
+.ct-bar {
+  fill: none;
+  stroke-width: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003205}}
+.ct-slice-donut {
+  fill: none;
+  stroke-width: 60px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003104}}
+.ct-series-a .ct-point, .ct-series-a .ct-line, .ct-series-a .ct-bar, .ct-series-a .ct-slice-donut {
+  stroke: #68B3C8; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003108}}
+.ct-series-a .ct-slice-pie, .ct-series-a .ct-area {
+  fill: #68B3C8; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003104}}
+.ct-series-b .ct-point, .ct-series-b .ct-line, .ct-series-b .ct-bar, .ct-series-b .ct-slice-donut {
+  stroke: #F3BB45; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003108}}
+.ct-series-b .ct-slice-pie, .ct-series-b .ct-area {
+  fill: #F3BB45; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003104}}
+.ct-series-c .ct-point, .ct-series-c .ct-line, .ct-series-c .ct-bar, .ct-series-c .ct-slice-donut {
+  stroke: #EB5E28; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003108}}
+.ct-series-c .ct-slice-pie, .ct-series-c .ct-area {
+  fill: #EB5E28; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003104}}
+.ct-series-d .ct-point, .ct-series-d .ct-line, .ct-series-d .ct-bar, .ct-series-d .ct-slice-donut {
+  stroke: #7AC29A; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003108}}
+.ct-series-d .ct-slice-pie, .ct-series-d .ct-area {
+  fill: #7AC29A; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003104}}
+.ct-series-e .ct-point, .ct-series-e .ct-line, .ct-series-e .ct-bar, .ct-series-e .ct-slice-donut {
+  stroke: #7A9E9F; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003108}}
+.ct-series-e .ct-slice-pie, .ct-series-e .ct-area {
+  fill: #7A9E9F; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003104}}
+.ct-series-f .ct-point, .ct-series-f .ct-line, .ct-series-f .ct-bar, .ct-series-f .ct-slice-donut {
+  stroke: rgba(104, 179, 200, 0.8); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003108}}
+.ct-series-f .ct-slice-pie, .ct-series-f .ct-area {
+  fill: rgba(104, 179, 200, 0.8); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003104}}
+.ct-series-g .ct-point, .ct-series-g .ct-line, .ct-series-g .ct-bar, .ct-series-g .ct-slice-donut {
+  stroke: rgba(122, 194, 154, 0.8); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003108}}
+.ct-series-g .ct-slice-pie, .ct-series-g .ct-area {
+  fill: rgba(122, 194, 154, 0.8); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003104}}
+.ct-series-h .ct-point, .ct-series-h .ct-line, .ct-series-h .ct-bar, .ct-series-h .ct-slice-donut {
+  stroke: rgba(243, 187, 69, 0.8); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003108}}
+.ct-series-h .ct-slice-pie, .ct-series-h .ct-area {
+  fill: rgba(243, 187, 69, 0.8); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003104}}
+.ct-series-i .ct-point, .ct-series-i .ct-line, .ct-series-i .ct-bar, .ct-series-i .ct-slice-donut {
+  stroke: rgba(235, 94, 40, 0.8); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003108}}
+.ct-series-i .ct-slice-pie, .ct-series-i .ct-area {
+  fill: rgba(235, 94, 40, 0.8); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003104}}
+.ct-series-j .ct-point, .ct-series-j .ct-line, .ct-series-j .ct-bar, .ct-series-j .ct-slice-donut {
+  stroke: rgba(122, 158, 159, 0.8); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003108}}
+.ct-series-j .ct-slice-pie, .ct-series-j .ct-area {
+  fill: rgba(122, 158, 159, 0.8); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003104}}
+.ct-series-k .ct-point, .ct-series-k .ct-line, .ct-series-k .ct-bar, .ct-series-k .ct-slice-donut {
+  stroke: rgba(104, 179, 200, 0.6); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003108}}
+.ct-series-k .ct-slice-pie, .ct-series-k .ct-area {
+  fill: rgba(104, 179, 200, 0.6); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003104}}
+.ct-series-l .ct-point, .ct-series-l .ct-line, .ct-series-l .ct-bar, .ct-series-l .ct-slice-donut {
+  stroke: rgba(122, 194, 154, 0.6); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003108}}
+.ct-series-l .ct-slice-pie, .ct-series-l .ct-area {
+  fill: rgba(122, 194, 154, 0.6); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003104}}
+.ct-series-m .ct-point, .ct-series-m .ct-line, .ct-series-m .ct-bar, .ct-series-m .ct-slice-donut {
+  stroke: rgba(243, 187, 69, 0.6); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003108}}
+.ct-series-m .ct-slice-pie, .ct-series-m .ct-area {
+  fill: rgba(243, 187, 69, 0.6); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003104}}
+.ct-series-n .ct-point, .ct-series-n .ct-line, .ct-series-n .ct-bar, .ct-series-n .ct-slice-donut {
+  stroke: rgba(235, 94, 40, 0.6); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003108}}
+.ct-series-n .ct-slice-pie, .ct-series-n .ct-area {
+  fill: rgba(235, 94, 40, 0.6); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003104}}
+.ct-series-o .ct-point, .ct-series-o .ct-line, .ct-series-o .ct-bar, .ct-series-o .ct-slice-donut {
+  stroke: rgba(122, 158, 159, 0.6); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003108}}
+.ct-series-o .ct-slice-pie, .ct-series-o .ct-area {
+  fill: rgba(122, 158, 159, 0.6); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003225}}
+.ct-square {
+  display: block;
+  position: relative;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\000036}}
+  .ct-square:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000315}}
+  .ct-square:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000321}}
+  .ct-square > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003225}}
+.ct-minor-second {
+  display: block;
+  position: relative;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\000036}}
+  .ct-minor-second:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 93.75%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000315}}
+  .ct-minor-second:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000321}}
+  .ct-minor-second > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003225}}
+.ct-major-second {
+  display: block;
+  position: relative;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\000036}}
+  .ct-major-second:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 88.88889%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000315}}
+  .ct-major-second:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000321}}
+  .ct-major-second > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003225}}
+.ct-minor-third {
+  display: block;
+  position: relative;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\000036}}
+  .ct-minor-third:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 83.33333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000315}}
+  .ct-minor-third:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000321}}
+  .ct-minor-third > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003225}}
+.ct-major-third {
+  display: block;
+  position: relative;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\000036}}
+  .ct-major-third:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 80%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000315}}
+  .ct-major-third:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000321}}
+  .ct-major-third > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003225}}
+.ct-perfect-fourth {
+  display: block;
+  position: relative;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\000036}}
+  .ct-perfect-fourth:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 75%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000315}}
+  .ct-perfect-fourth:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000321}}
+  .ct-perfect-fourth > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003225}}
+.ct-perfect-fifth {
+  display: block;
+  position: relative;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\000036}}
+  .ct-perfect-fifth:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 66.66667%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000315}}
+  .ct-perfect-fifth:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000321}}
+  .ct-perfect-fifth > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003225}}
+.ct-minor-sixth {
+  display: block;
+  position: relative;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\000036}}
+  .ct-minor-sixth:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 62.5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000315}}
+  .ct-minor-sixth:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000321}}
+  .ct-minor-sixth > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003225}}
+.ct-golden-section {
+  display: block;
+  position: relative;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\000036}}
+  .ct-golden-section:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 61.8047%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000315}}
+  .ct-golden-section:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000321}}
+  .ct-golden-section > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003225}}
+.ct-major-sixth {
+  display: block;
+  position: relative;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\000036}}
+  .ct-major-sixth:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 60%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000315}}
+  .ct-major-sixth:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000321}}
+  .ct-major-sixth > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003225}}
+.ct-minor-seventh {
+  display: block;
+  position: relative;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\000036}}
+  .ct-minor-seventh:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 56.25%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000315}}
+  .ct-minor-seventh:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000321}}
+  .ct-minor-seventh > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003225}}
+.ct-major-seventh {
+  display: block;
+  position: relative;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\000036}}
+  .ct-major-seventh:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 53.33333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000315}}
+  .ct-major-seventh:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000321}}
+  .ct-major-seventh > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003225}}
+.ct-octave {
+  display: block;
+  position: relative;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\000036}}
+  .ct-octave:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000315}}
+  .ct-octave:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000321}}
+  .ct-octave > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003225}}
+.ct-major-tenth {
+  display: block;
+  position: relative;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\000036}}
+  .ct-major-tenth:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 40%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000315}}
+  .ct-major-tenth:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000321}}
+  .ct-major-tenth > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003225}}
+.ct-major-eleventh {
+  display: block;
+  position: relative;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\000036}}
+  .ct-major-eleventh:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 37.5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000315}}
+  .ct-major-eleventh:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000321}}
+  .ct-major-eleventh > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003225}}
+.ct-major-twelfth {
+  display: block;
+  position: relative;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\000036}}
+  .ct-major-twelfth:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 33.33333%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000315}}
+  .ct-major-twelfth:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000321}}
+  .ct-major-twelfth > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\00003225}}
+.ct-double-octave {
+  display: block;
+  position: relative;
+  width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\000036}}
+  .ct-double-octave:before {
+    display: block;
+    float: left;
+    content: "";
+    width: 0;
+    height: 0;
+    padding-bottom: 25%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000315}}
+  .ct-double-octave:after {
+    content: "";
+    display: table;
+    clear: both; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_chartist\.scss}line{font-family:\0000321}}
+  .ct-double-octave > svg {
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0; }
+
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\000032}}
+  .navbar {
+    min-height: 75px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\000035}}
+  .navbar-form {
+    margin-top: 21px;
+    margin-bottom: 21px;
+    padding-left: 5px;
+    padding-right: 5px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\0000311}}
+  .navbar-search-form {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\0000314}}
+  .navbar-nav > li > .dropdown-menu,
+  .dropdown .dropdown-menu {
+    transform: translate3d(0px, -40px, 0px);
+    transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s, opacity 0.3s ease 0s, height 0s linear 0.35s; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\0000319}}
+  .navbar-nav > li.open > .dropdown-menu, .dropdown.open .dropdown-menu {
+    transform: translate3d(0px, 0px, 0px); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\0000323}}
+  .navbar-nav > li > .dropdown-menu:before {
+    border-bottom: 11px solid #F1EAE0;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    top: -11px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\0000333}}
+  .navbar-nav > li > .dropdown-menu:after {
+    border-bottom: 11px solid #FFFCF5;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    content: "";
+    display: inline-block;
+    position: absolute;
+    right: 12px;
+    top: -10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\0000344}}
+  .navbar-nav.navbar-left > li > .dropdown-menu:before {
+    right: auto;
+    left: 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\0000349}}
+  .navbar-nav.navbar-left > li > .dropdown-menu:after {
+    right: auto;
+    left: 12px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\0000355}}
+  .navbar .navbar-header {
+    margin-left: 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\0000362}}
+  .footer:not(.footer-big) nav > ul li:first-child {
+    margin-left: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\0000368}}
+  body > .navbar-collapse.collapse {
+    display: none !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\0000374}}
+  .card form [class*="col-"] {
+    padding: 6px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\0000377}}
+  .card form [class*="col-"]:first-child {
+    padding-left: 15px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\0000380}}
+  .card form [class*="col-"]:last-child {
+    padding-right: 15px; } }
+/*          Changes for small display      */
+@media (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\0000390}}
+  .sidebar {
+    display: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\0000394}}
+  .main-panel {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\0000397}}
+  .navbar-transparent {
+    padding-top: 15px;
+    background-color: rgba(0, 0, 0, 0.45); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003101}}
+  body {
+    position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003104}}
+  h6 {
+    font-size: 1em; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003107}}
+  .wrapper {
+    -webkit-transform: translate3d(0px, 0, 0);
+    -moz-transform: translate3d(0px, 0, 0);
+    -o-transform: translate3d(0px, 0, 0);
+    -ms-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0);
+    -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    left: 0;
+    background-color: white; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003113}}
+  .navbar .container {
+    left: 0;
+    width: 100%;
+    -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    position: relative; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003119}}
+  .navbar .navbar-collapse.collapse,
+  .navbar .navbar-collapse.collapse.in,
+  .navbar .navbar-collapse.collapsing {
+    display: none !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003125}}
+  .navbar-nav > li {
+    float: none;
+    position: relative;
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003131}}
+  .off-canvas-sidebar {
+    position: fixed;
+    display: block;
+    top: 0;
+    height: 100%;
+    width: 230px;
+    right: 0;
+    z-index: 1032;
+    visibility: visible;
+    background-color: #999;
+    overflow-y: visible;
+    border-top: none;
+    text-align: left;
+    padding-right: 0px;
+    padding-left: 0;
+    -webkit-transform: translate3d(230px, 0, 0);
+    -moz-transform: translate3d(230px, 0, 0);
+    -o-transform: translate3d(230px, 0, 0);
+    -ms-transform: translate3d(230px, 0, 0);
+    transform: translate3d(230px, 0, 0);
+    -webkit-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -moz-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -o-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    -ms-transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1);
+    transition: all 0.33s cubic-bezier(0.685, 0.0473, 0.346, 1); }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003150}}
+    .off-canvas-sidebar .sidebar-wrapper {
+      position: relative;
+      z-index: 3;
+      overflow-y: scroll;
+      height: 100%;
+      box-shadow: inset 1px 0px 0px 0px #DDDDDD; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003158}}
+    .off-canvas-sidebar .nav {
+      margin-top: 0;
+      padding: 10px 15px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003164}}
+      .off-canvas-sidebar .nav > li > a {
+        margin: 0px 0px;
+        color: #66615B;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-size: 12px;
+        line-height: 1.4em;
+        padding: 10px 0; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003173}}
+        .off-canvas-sidebar .nav > li > a:hover, .off-canvas-sidebar .nav > li > a.active {
+          color: #403D39; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003178}}
+        .off-canvas-sidebar .nav > li > a p,
+        .off-canvas-sidebar .nav > li > a .notification,
+        .off-canvas-sidebar .nav > li > a .caret {
+          display: inline-block; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003185}}
+        .off-canvas-sidebar .nav > li > a .caret {
+          float: right;
+          position: relative;
+          top: 12px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003191}}
+        .off-canvas-sidebar .nav > li > a i {
+          font-size: 18px;
+          margin-right: 10px;
+          line-height: 26px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003200}}
+      .off-canvas-sidebar .nav > li.active > a:before {
+        border-right: none;
+        border-left: 12px solid #DDDDDD;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        right: auto;
+        margin-left: -15px;
+        left: 0px;
+        top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003211}}
+      .off-canvas-sidebar .nav > li.active > a:after {
+        border-right: none;
+        border-left: 12px solid #f4f3ef;
+        border-top: 12px solid transparent;
+        border-bottom: 12px solid transparent;
+        right: auto;
+        margin-left: -15px;
+        left: -1px;
+        top: 10px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003229}}
+    .off-canvas-sidebar::after {
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      background-color: #f4f3ef;
+      background-image: linear-gradient(to bottom, transparent 0%, rgba(112, 112, 112, 0) 60%, rgba(186, 186, 186, 0.15) 100%);
+      display: block;
+      content: "";
+      z-index: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003241}}
+    .off-canvas-sidebar.has-image::after {
+      top: 0;
+      left: 0;
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      background-color: rgba(17, 17, 17, 0.8);
+      display: block;
+      content: "";
+      z-index: 1; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003245}}
+    .off-canvas-sidebar .logo {
+      position: relative;
+      z-index: 4;
+      padding-top: 11px;
+      padding-bottom: 11px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003252}}
+    .off-canvas-sidebar .divider {
+      height: 1px;
+      margin: 10px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003257}}
+  .nav-open .navbar-collapse {
+    -webkit-transform: translate3d(0px, 0, 0);
+    -moz-transform: translate3d(0px, 0, 0);
+    -o-transform: translate3d(0px, 0, 0);
+    -ms-transform: translate3d(0px, 0, 0);
+    transform: translate3d(0px, 0, 0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003260}}
+  .nav-open .navbar .container {
+    left: -230px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003263}}
+  .nav-open .wrapper {
+    left: 0;
+    -webkit-transform: translate3d(-230px, 0, 0);
+    -moz-transform: translate3d(-230px, 0, 0);
+    -o-transform: translate3d(-230px, 0, 0);
+    -ms-transform: translate3d(-230px, 0, 0);
+    transform: translate3d(-230px, 0, 0); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003267}}
+  .navbar-toggle .icon-bar {
+    display: block;
+    position: relative;
+    background: #fff;
+    width: 24px;
+    height: 2px;
+    border-radius: 1px;
+    margin: 0 auto; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003277}}
+  .navbar-header .navbar-toggle {
+    margin: 10px 15px 10px 0;
+    width: 40px;
+    height: 40px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003282}}
+  .bar1,
+  .bar2,
+  .bar3 {
+    outline: 1px solid transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003287}}
+  .bar1 {
+    top: 0px;
+    -webkit-animation: topbar-back 500ms linear 0s;
+    -moz-animation: topbar-back 500ms linear 0s;
+    animation: topbar-back 500ms 0s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003291}}
+  .bar2 {
+    opacity: 1; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003294}}
+  .bar3 {
+    bottom: 0px;
+    -webkit-animation: bottombar-back 500ms linear 0s;
+    -moz-animation: bottombar-back 500ms linear 0s;
+    animation: bottombar-back 500ms 0s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003298}}
+  .toggled .bar1 {
+    top: 6px;
+    -webkit-animation: topbar-x 500ms linear 0s;
+    -moz-animation: topbar-x 500ms linear 0s;
+    animation: topbar-x 500ms 0s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003302}}
+  .toggled .bar2 {
+    opacity: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003305}}
+  .toggled .bar3 {
+    bottom: 6px;
+    -webkit-animation: bottombar-x 500ms linear 0s;
+    -moz-animation: bottombar-x 500ms linear 0s;
+    animation: bottombar-x 500ms 0s;
+    -webkit-animation-fill-mode: forwards;
+    -moz-animation-fill-mode: forwards;
+    animation-fill-mode: forwards; }
+
+  @keyframes topbar-x {
+    0% {
+      top: 0px;
+      transform: rotate(0deg); }
+    45% {
+      top: 6px;
+      transform: rotate(145deg); }
+    75% {
+      transform: rotate(130deg); }
+    100% {
+      transform: rotate(135deg); } }
+  @-webkit-keyframes topbar-x {
+    0% {
+      top: 0px;
+      -webkit-transform: rotate(0deg); }
+    45% {
+      top: 6px;
+      -webkit-transform: rotate(145deg); }
+    75% {
+      -webkit-transform: rotate(130deg); }
+    100% {
+      -webkit-transform: rotate(135deg); } }
+  @-moz-keyframes topbar-x {
+    0% {
+      top: 0px;
+      -moz-transform: rotate(0deg); }
+    45% {
+      top: 6px;
+      -moz-transform: rotate(145deg); }
+    75% {
+      -moz-transform: rotate(130deg); }
+    100% {
+      -moz-transform: rotate(135deg); } }
+  @keyframes topbar-back {
+    0% {
+      top: 6px;
+      transform: rotate(135deg); }
+    45% {
+      transform: rotate(-10deg); }
+    75% {
+      transform: rotate(5deg); }
+    100% {
+      top: 0px;
+      transform: rotate(0); } }
+  @-webkit-keyframes topbar-back {
+    0% {
+      top: 6px;
+      -webkit-transform: rotate(135deg); }
+    45% {
+      -webkit-transform: rotate(-10deg); }
+    75% {
+      -webkit-transform: rotate(5deg); }
+    100% {
+      top: 0px;
+      -webkit-transform: rotate(0); } }
+  @-moz-keyframes topbar-back {
+    0% {
+      top: 6px;
+      -moz-transform: rotate(135deg); }
+    45% {
+      -moz-transform: rotate(-10deg); }
+    75% {
+      -moz-transform: rotate(5deg); }
+    100% {
+      top: 0px;
+      -moz-transform: rotate(0); } }
+  @keyframes bottombar-x {
+    0% {
+      bottom: 0px;
+      transform: rotate(0deg); }
+    45% {
+      bottom: 6px;
+      transform: rotate(-145deg); }
+    75% {
+      transform: rotate(-130deg); }
+    100% {
+      transform: rotate(-135deg); } }
+  @-webkit-keyframes bottombar-x {
+    0% {
+      bottom: 0px;
+      -webkit-transform: rotate(0deg); }
+    45% {
+      bottom: 6px;
+      -webkit-transform: rotate(-145deg); }
+    75% {
+      -webkit-transform: rotate(-130deg); }
+    100% {
+      -webkit-transform: rotate(-135deg); } }
+  @-moz-keyframes bottombar-x {
+    0% {
+      bottom: 0px;
+      -moz-transform: rotate(0deg); }
+    45% {
+      bottom: 6px;
+      -moz-transform: rotate(-145deg); }
+    75% {
+      -moz-transform: rotate(-130deg); }
+    100% {
+      -moz-transform: rotate(-135deg); } }
+  @keyframes bottombar-back {
+    0% {
+      bottom: 6px;
+      transform: rotate(-135deg); }
+    45% {
+      transform: rotate(10deg); }
+    75% {
+      transform: rotate(-5deg); }
+    100% {
+      bottom: 0px;
+      transform: rotate(0); } }
+  @-webkit-keyframes bottombar-back {
+    0% {
+      bottom: 6px;
+      -webkit-transform: rotate(-135deg); }
+    45% {
+      -webkit-transform: rotate(10deg); }
+    75% {
+      -webkit-transform: rotate(-5deg); }
+    100% {
+      bottom: 0px;
+      -webkit-transform: rotate(0); } }
+  @-moz-keyframes bottombar-back {
+    0% {
+      bottom: 6px;
+      -moz-transform: rotate(-135deg); }
+    45% {
+      -moz-transform: rotate(10deg); }
+    75% {
+      -moz-transform: rotate(-5deg); }
+    100% {
+      bottom: 0px;
+      -moz-transform: rotate(0); } }
+  @-webkit-keyframes fadeIn {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @-moz-keyframes fadeIn {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+  @keyframes fadeIn {
+    0% {
+      opacity: 0; }
+    100% {
+      opacity: 1; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003328}}
+  .dropdown-menu .divider {
+    background-color: rgba(229, 229, 229, 0.15); }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003332}}
+  .navbar-nav {
+    margin: 1px 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003336}}
+  .dropdown-menu {
+    display: none; }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003340}}
+    .dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus {
+      background-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003347}}
+  .navbar-fixed-top {
+    -webkit-backface-visibility: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003350}}
+  #bodyClick {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    left: auto;
+    right: 230px;
+    content: "";
+    z-index: 9999;
+    overflow-x: hidden; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003362}}
+  .form-control + .form-control-feedback {
+    margin-top: -8px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003365}}
+  .navbar-toggle:hover, .navbar-toggle:focus {
+    background-color: transparent !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003368}}
+  .btn.dropdown-toggle {
+    margin-bottom: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003371}}
+  .media-post .author {
+    width: 20%;
+    float: none !important;
+    display: block;
+    margin: 0 auto 10px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003377}}
+  .media-post .media-body {
+    width: 100%; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003381}}
+  .navbar-collapse.collapse {
+    height: 100% !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003384}}
+  .navbar-collapse.collapse.in {
+    display: block; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003387}}
+  .navbar-header .collapse, .navbar-toggle {
+    display: block !important; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003390}}
+  .navbar-header {
+    float: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003393}}
+  .navbar-nav .open .dropdown-menu {
+    position: static;
+    float: none;
+    width: auto;
+    margin-top: 0;
+    background-color: transparent;
+    border: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003404}}
+  .main-panel > .content {
+    padding-left: 0;
+    padding-right: 0; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003409}}
+  .nav .open > a, .nav .open > a:focus, .nav .open > a:hover {
+    background-color: transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003417}}
+  .footer .copyright {
+    padding: 0px 15px;
+    width: 100%; } }
+@media (min-width: 992px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003426}}
+  .table-full-width {
+    margin-left: -15px;
+    margin-right: -15px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003430}}
+  .table-responsive {
+    overflow: visible; } }
+@media (max-width: 991px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/conacelelena\/paper-dashboard\/assets\/sass\/paper\/_responsive\.scss}line{font-family:\00003437}}
+  .table-responsive {
+    width: 100%;
+    margin-bottom: 15px;
+    border: 1px solid #dddddd;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    -webkit-overflow-scrolling: touch; } }
+
+/*# sourceMappingURL=paper-dashboard.css.map */
