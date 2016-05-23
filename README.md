@@ -1,8 +1,4 @@
-# paper-dashboard
-Paper Dashboard is a Bootstrap Admin Panel which combines soft colors with beautiful typography and spacious cards and graphics.
-
-
-# [Paper Dashboard](http://www.creative-tim.com/product/paper-dashboard)
+# [Paper Dashboard](http://demos.creative-tim.com/paper-dashboard/dashboard.html)
 
 If you are a developer or a website owner that needs to work within a dashboard and want to have a pretty sight while doing so, Paper Dashboard is for you. Paper Dashboard is a Bootstrap Admin Panel which combines soft colors with beautiful typography and spacious cards and graphics. It is a powerful tool, but it is light and easy to use. It has enough features to allow you to get the job done, but it is not crowded to the point where you can't find the files for a specific plugin.
 
