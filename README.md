@@ -11,13 +11,13 @@ Let us know what you think and what we can improve below. And good luck with dev
 ## Links:
 
 + [Live Preview](http://demos.creative-tim.com/paper-dashboard/dashboard.html)
-+ Paper Dashboard PRO (coming in June 2016 from $39)
++ [Paper Dashboard PRO](http://www.creative-tim.com/product/paper-dashboard-pro?ref=pd-free-upgrade-github) (from $39)
 
 ## Quick start
 
 Quick start options:
 
-- [Download from Github](https://github.com/timcreative/paper-dashboard/releases/tag/v1.0).
+- [Download from Github](https://github.com/timcreative/paper-dashboard/releases/tag/v1.1).
 - [Download from Creative Tim](http://www.creative-tim.com/product/paper-dashboard).
 - Clone the repo: `git clone https://github.com/timcreative/paper-dashboard.git`.
 
@@ -59,13 +59,17 @@ paper-dashboard/
 ├── table.html
 ├── template.html
 ├── typography.html
+├── upgrade.html
 └── user.html
 
 ```
 
 ### Version logs
 
-V1.0 - 29 March 2016 initial release
+V1.0, 29.03.2016 Original Release
+
+V1.1.0, 30 Sept 2016 - New Page
+- added Upgrade to PRO page for those who want to upsell inside the dashboard
 
 
 ## Useful Links

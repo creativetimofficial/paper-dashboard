@@ -19,7 +19,7 @@
                 color: $font-color;
                 display: block;
                 margin-bottom: 3px;
-                
+
                 &:focus,
                 &:hover{
                     color: $default-states-color;
@@ -31,6 +31,7 @@
         color: $font-color;
         padding: 10px 15px;
         font-size: 14px;
+        white-space: nowrap;
         margin: 15px 3px;
         line-height: 20px;
         text-align: center;
@@ -39,5 +40,3 @@
         color: $danger-color;
     }
 }
-
-
