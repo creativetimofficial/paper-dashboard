@@ -1,6 +1,7 @@
 # [Paper Dashboard](http://demos.creative-tim.com/paper-dashboard/dashboard.html)
+![alt text](https://s3.amazonaws.com/creativetim_bucket/products/43/original/opt_pd_thumbnail.jpg "Paper Dashboard Free")
 
-If you are a developer or a website owner that needs to work within a dashboard and want to have a pretty sight while doing so, Paper Dashboard is for you. Paper Dashboard is a Bootstrap Admin Panel which combines soft colors with beautiful typography and spacious cards and graphics. It is a powerful tool, but it is light and easy to use. It has enough features to allow you to get the job done, but it is not crowded to the point where you can't find the files for a specific plugin.
+If you are a developer or a website owner that needs to work within a dashboard and want to have a pretty sight while doing so, Paper Dashboard is for you. Paper Dashboard is a Bootstrap Admin Panel which combines soft colours with beautiful typography and spacious cards and graphics. It is a powerful tool, but it is light and easy to use. It has enough features to allow you to get the job done, but it is not crowded to the point where you can't find the files for a specific plugin.
 
 We like consistency and design that blends into its purpose. Paper Dashboard is a perfect example of our most thoughtful work. It combines over a dozen components and plugins, while looking like everything fits together. For an easy start or inspiration for you project, we have also create a set of example pages, like the user settings or usage graphics.
 
@@ -51,7 +52,6 @@ paper-dashboard/
 |   ├── sass/
 |   └── img/
 |
-├── Creative Tim License.pdf
 ├── dashboard.html
 ├── icons.html
 ├── maps.html
@@ -71,6 +71,13 @@ V1.0, 29.03.2016 Original Release
 V1.1.0, 30 Sept 2016 - New Page
 - added Upgrade to PRO page for those who want to upsell inside the dashboard
 
+V1.1.1, 8 Feb 2017 
+- switched to MIT license
+
+### License
+
+- Copyright 2017 Creative Tim (http://www.creative-tim.com)
+- Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard/blob/master/LICENSE.md)
 
 ## Useful Links
 
