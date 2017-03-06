@@ -1,21 +1,21 @@
 /*!
-    
+
  =========================================================
  * Paper Dashboard - v1.1.1
  =========================================================
- 
+
  * Product Page: http://www.creative-tim.com/product/paper-dashboard
  * Copyright 2017 Creative Tim (http://www.creative-tim.com)
  * Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard/blob/master/LICENSE.md)
- 
+
  =========================================================
- 
+
  * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
- 
+
  */
 
 var fixedTop = false;
-
+var transparent = true;
 var navbar_initialized = false;
 
 $(document).ready(function(){
@@ -23,7 +23,7 @@ $(document).ready(function(){
 
     // Init navigation toggle for small screens
     if(window_width <= 991){
-        lbd.initRightMenu();
+        pd.initRightMenu();
     }
 
     //  Activate the tooltips
@@ -34,15 +34,29 @@ $(document).ready(function(){
 // activate collapse right menu when the windows is resized
 $(window).resize(function(){
     if($(window).width() <= 991){
-        lbd.initRightMenu();
+        pd.initRightMenu();
     }
 });
 
-lbd = {
+pd = {
     misc:{
         navbar_menu_visible: 0
     },
-
+    checkScrollForTransparentNavbar: debounce(function() {
+        if($(document).scrollTop() > 381 ) {
+            if(transparent) {
+                transparent = false;
+                $('.navbar-color-on-scroll').removeClass('navbar-transparent');
+                $('.navbar-title').removeClass('hidden');
+            }
+        } else {
+            if( !transparent ) {
+                transparent = true;
+                $('.navbar-color-on-scroll').addClass('navbar-transparent');
+                $('.navbar-title').addClass('hidden');
+            }
+        }
+    }),
     initRightMenu: function(){
          if(!navbar_initialized){
             $off_canvas_sidebar = $('nav').find('.navbar-collapse').first().clone(true);
@@ -88,9 +102,9 @@ lbd = {
              $off_canvas_sidebar.find('button').addClass('btn-simple btn-block');
 
              $toggle.click(function (){
-                if(lbd.misc.navbar_menu_visible == 1) {
+                if(pd.misc.navbar_menu_visible == 1) {
                     $('html').removeClass('nav-open');
-                    lbd.misc.navbar_menu_visible = 0;
+                    pd.misc.navbar_menu_visible = 0;
                     $('#bodyClick').remove();
                      setTimeout(function(){
                         $toggle.removeClass('toggled');
@@ -104,7 +118,7 @@ lbd = {
                     div = '<div id="bodyClick"></div>';
                     $(div).appendTo("body").click(function() {
                         $('html').removeClass('nav-open');
-                        lbd.misc.navbar_menu_visible = 0;
+                        pd.misc.navbar_menu_visible = 0;
                         $('#bodyClick').remove();
                          setTimeout(function(){
                             $toggle.removeClass('toggled');
@@ -112,7 +126,7 @@ lbd = {
                     });
 
                     $('html').addClass('nav-open');
-                    lbd.misc.navbar_menu_visible = 1;
+                    pd.misc.navbar_menu_visible = 1;
 
                 }
             });
