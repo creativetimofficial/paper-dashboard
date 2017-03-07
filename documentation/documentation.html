@@ -64,7 +64,7 @@
 				</ul>
 				<ul  class="nav navbar-nav navbar-right">
 				    <li>
-						<a href="https://github.com/timcreative/paper-dashboard-pro/issues">Have an issue?</a>
+						<a href="https://github.com/timcreative/paper-dashboard/issues" target="_blank">Have an issue?</a>
 				    </li>
 					<li>
 						<a href="https://github.com/creativetimofficial/paper-dashboard" target="_blank" class="btn btn-default btn-simple">
@@ -98,12 +98,10 @@
                 <ul id="menuresize">
 					<li><a href="#license-row">License</a></li>
                     <li><a href="#buttons-row">Buttons</a></li>
-                    <li><a href="#checkbox-row">Checkbox/Radio/Switch</a></li>
                     <li><a href="#dropdown-row">Dropdown</a></li>
                     <li><a href="#inputs-row">Inputs</a></li>
                     <li><a href="#textarea-row">Textarea</a></li>
                     <li><a href="#navbar-row">Navigation</a></li>
-                    <li><a href="#subscription-row">Footers</a></li>
                     <li><a href="#panels-row">Panels</a></li>
                     <li><a href="#tables-row">Tables</a></li>
                     <li><a href="#notification-row">Notification</a></li>
@@ -120,9 +118,9 @@
 	<h2 class="text-center">Short Description and Usage</h2>
 	<legend></legend>
 	<p>
-	Paper Dashboard PRO is a beautiful resource built over Bootstrap to allow you to create powerful and beautiful dashboards. We have redesigned all the usual components in Bootstrap to make it look flat, minimalist and easy to use.
+	Paper Dashboard is a beautiful resource built over Bootstrap to allow you to create powerful and beautiful dashboards. We have redesigned all the usual components in Bootstrap to make it look flat, minimalist and easy to use.
 	<br /><br />
-		Using the dashboard is very simple, but it does require you to understand basic JavaScript functions. To get the desired effect you will need to integrate JS plugins that take a little bit more effort. Down below we list all the files you need to include inside the application to get going. In the <a href="elements.html">elements page</a>, you can how each element if called and used.
+		Using the dashboard is very simple, but it does require you to understand basic JavaScript functions. To get the desired effect you will need to integrate JS plugins that take a little bit more effort. Down below we list all the files you need to include inside the application to get going.
 	</p>
 </div>
 
@@ -167,10 +165,6 @@
 		│   |   ├── jquery-1.10.2.js
 		│   |   └── paper-dashboard.js
 		|   ├── fonts/
-		|   |    ├── themify.eot
-		|   |    ├── themify.svg
-		|   |    ├── themify.ttf
-		|   |    └── themify.woff
 		|   ├── sass/
 		|   └── img/
 		|
@@ -197,19 +191,13 @@
 		Here is the list of Bootstrap 3 components that we restyled for the Paper Dashboard:
 			<ul>
 				<li> Buttons </li>
-				<li> Collapse</li>
 				<li> Dropdown</li>
 				<li> Images</li>
 				<li> Inputs</li>
-				<li> Menu </li>
 				<li> Navigation Menu</li>
 				<li> Notifications</li>
-				<li> Pagination</li>
-				<li> Progress Bars</li>
-				<li> Select</li>
 				<li> Tables</li>
 				<li> Textarea</li>
-				<li> Tooltips</li>
 				<li> Typography</li>
 			</ul>
 		</p>
@@ -225,15 +213,9 @@
 		Going through them, we added:
 		<ul>
 			<li> Charts</li>
-			<li> Checkboxes</li>
-			<li> Footers</li>
 			<li> Google Maps</li>
 			<li> Panels</li>
-			<li> Radio Buttons</li>
 		</ul>
-		</p>
-		<p>
-			For more details regarding the components, go to our <a href="elements.html">elements page</a>.
 		</p>
 </div>
 <!-- buttons row -->
@@ -311,303 +293,8 @@
                     Button groups, toolbars, and disabled states all work like they are supposed to.
                 </p>
 
-            <h4>Social Buttons</h4>
-                <p>
-                    An extra category of buttons that are necessary for any project is the social buttons. We have added classes that provide the default colour for every social network. <br />
-                    To use them, you have to add to your button the general class <code>btn-social</code> and the specific network, for example <code>btn-twitter</code>. All styles described above can be applied to social buttons (default, filled, simple). <br />
-                   We used the Themify social icons which you can find <a href="../examples/components/icons.html">here</a>.
-                <br />
-                Here are examples for all the social buttons:
-                </p>
-                <div class="social-buttons">
-                    <button class="btn btn-icon btn-twitter">
-                        <i class="ti-twitter"></i>
-                    </button>
-                    <button class="btn btn-icon btn-facebook">
-                        <i class="ti-facebook"> </i>
-                    </button>
-                    <button class="btn btn-icon btn-google">
-                        <i class="ti-google"> </i>
-                    </button>
-                    <button class="btn btn-icon btn-linkedin">
-                        <i class="ti-linkedin"></i>
-                    </button>
-                    <button class="btn btn-icon btn-pinterest">
-                        <i class="ti-pinterest"></i>
-                    </button>
-                    <button class="btn btn-icon btn-youtube">
-                        <i class="ti-youtube"> </i>
-                    </button>
-                    <button class="btn btn-icon btn-tumblr">
-                        <i class="ti-tumblr"> </i>
-                    </button>
-                    <button class="btn btn-icon btn-github">
-                        <i class="ti-github"></i>
-                    </button>
-                    <button class="btn btn-icon btn-dribbble">
-                        <i class="ti-dribbble"></i>
-                    </button>
-                    <button class="btn btn-icon btn-reddit">
-                        <i class="ti-reddit"></i>
-                    </button>
-                    <button class="btn btn-icon btn-instagram">
-                        <i class="ti-instagram"></i>
-                    </button>
-                </div>
-
-<pre class="prettyprint">
-&lt;button class=&quot;btn btn-icon btn-twitter&quot;&gt;
-    &lt;i class=&quot;ti-twitter&quot;&gt;&lt;/i&gt;
-&lt;/button&gt;
-&lt;button class=&quot;btn btn-icon btn-facebook&quot;&gt;
-    &lt;i class=&quot;ti-facebook&quot;&gt; &lt;/i&gt;
-&lt;/button&gt;
-&lt;button class=&quot;btn btn-icon btn-google&quot;&gt;
-    &lt;i class=&quot;ti-google&quot;&gt; &lt;/i&gt;
-&lt;/button&gt;
-&lt;button class=&quot;btn btn-icon btn-linkedin&quot;&gt;
-    &lt;i class=&quot;ti-linkedin&quot;&gt;&lt;/i&gt;
-&lt;/button&gt;
-&lt;button class=&quot;btn btn-icon btn-pinterest&quot;&gt;
-    &lt;i class=&quot;ti-pinterest&quot;&gt;&lt;/i&gt;
-&lt;/button&gt;
-&lt;button class=&quot;btn btn-icon btn-youtube&quot;&gt;
-    &lt;i class=&quot;ti-youtube&quot;&gt; &lt;/i&gt;
-&lt;/button&gt;
-&lt;button class=&quot;btn btn-icon btn-tumblr&quot;&gt;
-    &lt;i class=&quot;ti-tumblr&quot;&gt; &lt;/i&gt;
-&lt;/button&gt;
-&lt;button class=&quot;btn btn-icon btn-github&quot;&gt;
-    &lt;i class=&quot;ti-github&quot;&gt;&lt;/i&gt;
-&lt;/button&gt;
-&lt;button class=&quot;btn btn-icon btn-dribbble&quot;&gt;
-    &lt;i class=&quot;ti-dribbble&quot;&gt;&lt;/i&gt;
-&lt;/button&gt;
-&lt;button class=&quot;btn btn-icon btn-reddit&quot;&gt;
-    &lt;i class=&quot;ti-reddit&quot;&gt;&lt;/i&gt;
-&lt;/button&gt;
-&lt;button class=&quot;btn btn-icon btn-instagram&quot;&gt;
-    &lt;i class=&quot;ti-instagram&quot;&gt;&lt;/i&gt;
-&lt;/button&gt;
-
-</pre>
-
     </div>
 <!--     end row -->
-
-<!-- checkbox row -->
-    <div class="tim-row" id="checkbox-row">
-            <h2> Checkboxes</h2>
-            <legend></legend>
-            <p>
-                To use the custom checkboxes, you need to import a separate Javascript file called 'bootstrap-checkbox-radio-switch-tags.js'.
-            </p>
-            <p>
-                  <label class="checkbox" for="checkbox1">
-                    <input type="checkbox" value="" id="checkbox1" data-toggle="checkbox">
-                    Unchecked
-                  </label>
-                  <label class="checkbox" for="checkbox2">
-                    <input type="checkbox" value="" id="checkbox2" data-toggle="checkbox" checked>
-                    Checked
-                  </label>
-                  <label class="checkbox" for="checkbox3">
-                    <input type="checkbox" value="" id="checkbox3" data-toggle="checkbox" disabled>
-                    Disabled unchecked
-                  </label>
-                  <label class="checkbox" for="checkbox4">
-                    <input type="checkbox" value="" id="checkbox4" data-toggle="checkbox" disabled checked>
-                    Disabled checked
-                  </label>
-            </p>
-            <p>Usage can be done via Data Attributes:</p>
-<pre class="prettyprint">
-&lt;label class=&quot;checkbox&quot; for=&quot;checkbox1&quot;&gt;
-
-    &lt;input type=&quot;checkbox&quot; value=&quot;&quot; id=&quot;checkbox1&quot; data-toggle=&quot;checkbox&quot;&gt;
-
-    Unchecked
-
-&lt;/label&gt;
-
-&lt;label class=&quot;checkbox&quot; for=&quot;checkbox2&quot;&gt;
-
-    &lt;input type=&quot;checkbox&quot; value=&quot;&quot; id=&quot;checkbox2&quot; data-toggle=&quot;checkbox&quot; checked&gt;
-
-    Checked
-
-&lt;/label&gt;
-
-&lt;label class=&quot;checkbox&quot; for=&quot;checkbox3&quot;&gt;
-
-    &lt;input type=&quot;checkbox&quot; value=&quot;&quot; id=&quot;checkbox3&quot; data-toggle=&quot;checkbox&quot; disabled&gt;
-
-    Disabled unchecked
-
-&lt;/label&gt;
-
-&lt;label class=&quot;checkbox&quot; for=&quot;checkbox4&quot;&gt;
-
-    &lt;input type=&quot;checkbox&quot; value=&quot;&quot; id=&quot;checkbox4&quot; data-toggle=&quot;checkbox&quot; disabled checked&gt;
-
-    Disabled checked
-
-&lt;/label&gt;
-
-</pre>
-
-            <p>Or you can call it via Javascript:</p>
-<pre class="prettyprint">
-$(':checkbox').checkbox();
-</pre>
-
-            <p>
-                <h4>Methods</h4>
-                <ul class="list-unstyled">
-                    <li>
-                        <b>.checkbox('toggle')</b>
-                        is used to toggle the states between checked and unchecked.
-                    </li>
-                    <li>
-                        <b>.checkbox('check') </b>
-                        sets the checkbox state to checked.
-                    </li>
-                    <li>
-                        <b>.checkbox('uncheck') </b>
-                        sets the state to unchecked.
-                    </li>
-                </ul>
-
-<pre class="prettyprint">
-$(':checkbox').checkbox('check');
-</pre>
-
-                <h4>Events</h4>
-                <ul class="list-unstyled">
-                    <li>
-                        <b>.on('toggle') </b>
-                        gets activated when the checkbox state changes between checked and unchecked.
-                    </li>
-                    <li>
-                        <b>.on('change') </b>
-                        the same as toggle.
-                    </li>
-                </ul>
-            </p>
-
-<pre class="prettyprint">
-$(':checkbox').on('toggle', function() {
-  // Do something
-});
-</pre>
-
-    </div>
-<!-- end row -->
-
-<!-- radio row -->
-    <div class="tim-row" id="radio-row">
-        <h2> Radio Buttons</h2>
-        <legend></legend>
-            <p>
-                To use the custom radio buttons, you need to import a separate Javascript file called 'bootstrap-checkbox-radio-switch-tags.js'.
-            </p>
-            <p>
-               <label class="radio">
-                <input type="radio" name="optionsRadios" data-toggle="radio" id="optionsRadios1" value="option1">
-                <i></i>Radio is off
-              </label>
-              <label class="radio">
-                <input type="radio" name="optionsRadios" data-toggle="radio" id="optionsRadios2" value="option1" checked>
-                <i></i>Radio is on
-              </label>
-
-              <label class="radio">
-                <input type="radio" name="optionsRadiosDisabled" data-toggle="radio" id="optionsRadios3" value="option2" disabled>
-                <i></i>Disabled radio is off
-              </label>
-              <label class="radio">
-                <input type="radio" name="optionsRadiosDisabled" data-toggle="radio" id="optionsRadios4" value="option2" checked disabled>
-                <i></i>Disabled radio is on
-              </label>
-            </p>
-            <p>Usage can be done via Data Attributes</p>
-<pre class="prettyprint">
-&lt;label class=&quot;radio&quot;&gt;
-
-    &lt;input type=&quot;radio&quot; name=&quot;optionsRadios&quot; data-toggle=&quot;radio&quot; id=&quot;optionsRadios1&quot; value=&quot;option1&quot;&gt;
-
-    &lt;i&gt;&lt;/i&gt;Radio is off
-
-&lt;/label&gt;
-
-&lt;label class=&quot;radio&quot;&gt;
-
-    &lt;input type=&quot;radio&quot; name=&quot;optionsRadios&quot; data-toggle=&quot;radio&quot; id=&quot;optionsRadios2&quot; value=&quot;option1&quot; checked&gt;
-
-    &lt;i&gt;&lt;/i&gt;Radio is on
-
-&lt;/label&gt;
-
-&lt;label class=&quot;radio&quot;&gt;
-
-    &lt;input type=&quot;radio&quot; name=&quot;optionsRadiosDisabled&quot; data-toggle=&quot;radio&quot; id=&quot;optionsRadios3&quot; value=&quot;option2&quot; disabled&gt;
-
-    &lt;i&gt;&lt;/i&gt;Disabled radio is off
-
-&lt;/label&gt;
-
-&lt;label class=&quot;radio&quot;&gt;
-
-    &lt;input type=&quot;radio&quot; name=&quot;optionsRadiosDisabled&quot; data-toggle=&quot;radio&quot; id=&quot;optionsRadios4&quot; value=&quot;option2&quot; checked disabled&gt;
-
-    &lt;i&gt;&lt;/i&gt;Disabled radio is on
-
-&lt;/label&gt;
-</pre>
-            <p>Or can be called via Javascript</p>
-
-<pre class="prettyprint">
-$(':radio').radio();
-</pre>
-
-            <p>
-                <h4>Methods</h4>
-                <ul class="list-unstyled">
-
-                    <li>
-                        <b>.radio('check') </b>
-                        sets the checkbox state to checked.
-                    </li>
-                    <li>
-                        <b>.radio('uncheck') </b>
-                        sets the state to unchecked.
-                    </li>
-                </ul>
-
-<pre class="prettyprint">
-$(':radio').radio('check');
-</pre>
-
-                <h4>Events</h4>
-                <ul class="list-unstyled">
-                    <li>
-                        <b>.on('toggle') </b>
-                        gets activated when the checkbox state changes between checked and unchecked.
-                    </li>
-                    <li>
-                        <b>.on('change') </b>
-                        the behaviour is the same as for the toggle, with the difference that the event is fired for each radio button that gets a change in its state.
-                    </li>
-                </ul>
-            </p>
-
-<pre class="prettyprint">
-$(':radio').on('toggle', function() {
-  // Do something
-});
-</pre>
-</div>
-<!-- end row -->
 
 <!-- dropdown row -->
 <div class="tim-row" id="dropdown-row">
@@ -1172,17 +859,6 @@ $(':radio').on('toggle', function() {
 </div>
 <!-- end row -->
 
-
-<!-- footers row -->
-<div class="tim-row" id="footers-row">
-    <h2>Footers</h2>
-    <legend></legend>
-    <p>
-        There are 3 classes for footers: <code>footer</code> for the default pale colour, <code>footer-black</code> for black and <code>footer-transparent</code> for transparent.<br />
-    </p>
-</div>
-<!-- end row -->
-
 <!-- panel row -->
 <div class="tim-row" id="panels-row">
     <h2>Panels</h2>
@@ -1364,508 +1040,121 @@ $(':radio').on('toggle', function() {
    All Boostrap classes for tables are supported and improved. Besides the simple and striped tables, we added tables that have actions and tables with switches. <br />
    You can see coded examples below:
     </p>
-    <h4>Simple Table with Actions</h4>
-    <div class="table-responsive">
-        <table class="table">
-            <thead>
-                <tr>
-                    <th class="text-center">#</th>
-                    <th>Name</th>
-                    <th>Job Position</th>
-                    <th>Since</th>
-                    <th class="text-right">Salary</th>
-                    <th class="text-right">Actions</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td class="text-center">1</td>
-                    <td>Andrew Mike</td>
-                    <td>Develop</td>
-                    <td>2013</td>
-                    <td class="text-right">&euro; 99,225</td>
-                    <td class="td-actions text-right">
-                        <button type="button" rel="tooltip" title="View Profile" class="btn btn-info btn-simple btn-xs">
-                            <i class="fa fa-user"></i>
-                        </button>
-                        <button type="button" rel="tooltip" title="Edit Profile" class="btn btn-success btn-simple btn-xs">
-                            <i class="fa fa-edit"></i>
-                        </button>
-                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                            <i class="fa fa-times"></i>
-                        </button>
-                    </td>
-                </tr>
-                <tr>
+    <h4>Striped Table</h4>
+	<div class="content table-responsive table-full-width">
+		<table class="table table-striped">
+			<thead>
+				<th>ID</th>
+				<th>Name</th>
+				<th>Salary</th>
+				<th>Country</th>
+				<th>City</th>
+			</thead>
+			<tbody>
+				<tr>
+					<td>1</td>
+					<td>Dakota Rice</td>
+					<td>$36,738</td>
+					<td>Niger</td>
+					<td>Oud-Turnhout</td>
+				</tr>
+				<tr>
+					<td>2</td>
+					<td>Minerva Hooper</td>
+					<td>$23,789</td>
+					<td>Curaçao</td>
+					<td>Sinaai-Waas</td>
+				</tr>
+				<tr>
+					<td>3</td>
+					<td>Sage Rodriguez</td>
+					<td>$56,142</td>
+					<td>Netherlands</td>
+					<td>Baileux</td>
+				</tr>
+				<tr>
+					<td>4</td>
+					<td>Philip Chaney</td>
+					<td>$38,735</td>
+					<td>Korea, South</td>
+					<td>Overland Park</td>
+				</tr>
+				<tr>
+					<td>5</td>
+					<td>Doris Greene</td>
+					<td>$63,542</td>
+					<td>Malawi</td>
+					<td>Feldkirchen in Kärnten</td>
+				</tr>
+				<tr>
+					<td>6</td>
+					<td>Mason Porter</td>
+					<td>$78,615</td>
+					<td>Chile</td>
+					<td>Gloucester</td>
+				</tr>
+			</tbody>
+		</table>
 
-                    <td class="text-center">2</td>
-                    <td>John Doe</td>
-                    <td>Design</td>
-                    <td>2012</td>
-                    <td class="text-right">&euro; 89,241</td>
-                    <td class="td-actions text-right">
-                        <button type="button" rel="tooltip" title="View Profile" class="btn btn-info btn-simple btn-xs">
-                            <i class="fa fa-user"></i>
-                        </button>
-                        <button type="button" rel="tooltip" title="Edit Profile" class="btn btn-success btn-simple btn-xs">
-                            <i class="fa fa-edit"></i>
-                        </button>
-                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                            <i class="fa fa-times"></i>
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-center">3</td>
-                    <td>Alex Mike</td>
-                    <td>Design</td>
-                    <td>2010</td>
-                    <td class="text-right">&euro; 92,144</td>
-                    <td class="td-actions text-right">
-                        <button type="button" rel="tooltip" title="View Profile" class="btn btn-info btn-simple btn-xs">
-                            <i class="fa fa-user"></i>
-                        </button>
-                        <button type="button" rel="tooltip" title="Edit Profile" class="btn btn-success btn-simple btn-xs">
-                            <i class="fa fa-edit"></i>
-                        </button>
-                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                            <i class="fa fa-times"></i>
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-center">4</td>
-                    <td>Mike Monday</td>
-                    <td>Marketing</td>
-                    <td>2013</td>
-                    <td class="text-right">&euro; 49,990</td>
-                    <td class="td-actions text-right">
-                        <button type="button" rel="tooltip" title="View Profile" class="btn btn-info btn-simple btn-xs">
-                            <i class="fa fa-user"></i>
-                        </button>
-                        <button type="button" rel="tooltip" title="Edit Profile" class="btn btn-success btn-simple btn-xs">
-                            <i class="fa fa-edit"></i>
-                        </button>
-                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                            <i class="fa fa-times"></i>
-                        </button>
-                    </td>
-                </tr>
-                <tr>
-                    <td class="text-center">5</td>
-                    <td>Paul Dickens</td>
-                    <td>Communication</td>
-                    <td>2014</td>
-                    <td class="text-right">&euro; 69,201</td>
-                    <td class="td-actions text-right">
-                        <button type="button" rel="tooltip" title="View Profile" class="btn btn-info btn-simple btn-xs">
-                            <i class="fa fa-user"></i>
-                        </button>
-                        <button type="button" rel="tooltip" title="Edit Profile" class="btn btn-success btn-simple btn-xs">
-                            <i class="fa fa-edit"></i>
-                        </button>
-                        <button type="button" rel="tooltip" title="Remove" class="btn btn-danger btn-simple btn-xs">
-                            <i class="fa fa-times"></i>
-                        </button>
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-        </div>
+	</div>
 <pre class="prettyprint">
-&lt;div class=&quot;table-responsive&quot;&gt;
-
-&lt;table class=&quot;table&quot;&gt;
-
-    &lt;thead&gt;
-
-        &lt;tr&gt;
-
-            &lt;th class=&quot;text-center&quot;&gt;#&lt;/th&gt;
-
-            &lt;th&gt;Name&lt;/th&gt;
-
-            &lt;th&gt;Job Position&lt;/th&gt;
-
-            &lt;th&gt;Since&lt;/th&gt;
-
-            &lt;th class=&quot;text-right&quot;&gt;Salary&lt;/th&gt;
-
-            &lt;th class=&quot;text-right&quot;&gt;Actions&lt;/th&gt;
-
-        &lt;/tr&gt;
-
-    &lt;/thead&gt;
-
-    &lt;tbody&gt;
-
-        &lt;tr&gt;
-
-            &lt;td class=&quot;text-center&quot;&gt;1&lt;/td&gt;
-
-            &lt;td&gt;Andrew Mike&lt;/td&gt;
-
-            &lt;td&gt;Develop&lt;/td&gt;
-
-            &lt;td&gt;2013&lt;/td&gt;
-
-            &lt;td class=&quot;text-right&quot;&gt;&amp;euro; 99,225&lt;/td&gt;
-
-            &lt;td class=&quot;td-actions text-right&quot;&gt;
-
-                &lt;button type=&quot;button&quot; rel=&quot;tooltip&quot; title=&quot;View Profile&quot; class=&quot;btn btn-info btn-simple btn-xs&quot;&gt;
-
-                    &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;
-
-                &lt;/button&gt;
-
-                &lt;button type=&quot;button&quot; rel=&quot;tooltip&quot; title=&quot;Edit Profile&quot; class=&quot;btn btn-success btn-simple btn-xs&quot;&gt;
-
-                    &lt;i class=&quot;fa fa-edit&quot;&gt;&lt;/i&gt;
-
-                &lt;/button&gt;
-
-                &lt;button type=&quot;button&quot; rel=&quot;tooltip&quot; title=&quot;Remove&quot; class=&quot;btn btn-danger btn-simple btn-xs&quot;&gt;
-
-                    &lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;
-
-                &lt;/button&gt;
-
-            &lt;/td&gt;
-
-        &lt;/tr&gt;
-
-        &lt;tr&gt;
-
-
-
-            &lt;td class=&quot;text-center&quot;&gt;2&lt;/td&gt;
-
-            &lt;td&gt;John Doe&lt;/td&gt;
-
-            &lt;td&gt;Design&lt;/td&gt;
-
-            &lt;td&gt;2012&lt;/td&gt;
-
-            &lt;td class=&quot;text-right&quot;&gt;&amp;euro; 89,241&lt;/td&gt;
-
-            &lt;td class=&quot;td-actions text-right&quot;&gt;
-
-                &lt;button type=&quot;button&quot; rel=&quot;tooltip&quot; title=&quot;View Profile&quot; class=&quot;btn btn-info btn-simple btn-xs&quot;&gt;
-
-                    &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;
-
-                &lt;/button&gt;
-
-                &lt;button type=&quot;button&quot; rel=&quot;tooltip&quot; title=&quot;Edit Profile&quot; class=&quot;btn btn-success btn-simple btn-xs&quot;&gt;
-
-                    &lt;i class=&quot;fa fa-edit&quot;&gt;&lt;/i&gt;
-
-                &lt;/button&gt;
-
-                &lt;button type=&quot;button&quot; rel=&quot;tooltip&quot; title=&quot;Remove&quot; class=&quot;btn btn-danger btn-simple btn-xs&quot;&gt;
-
-                    &lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;
-
-                &lt;/button&gt;
-
-            &lt;/td&gt;
-
-        &lt;/tr&gt;
-
-        &lt;tr&gt;
-
-            &lt;td class=&quot;text-center&quot;&gt;3&lt;/td&gt;
-
-            &lt;td&gt;Alex Mike&lt;/td&gt;
-
-            &lt;td&gt;Design&lt;/td&gt;
-
-            &lt;td&gt;2010&lt;/td&gt;
-
-            &lt;td class=&quot;text-right&quot;&gt;&amp;euro; 92,144&lt;/td&gt;
-
-            &lt;td class=&quot;td-actions text-right&quot;&gt;
-
-                &lt;button type=&quot;button&quot; rel=&quot;tooltip&quot; title=&quot;View Profile&quot; class=&quot;btn btn-info btn-simple btn-xs&quot;&gt;
-
-                    &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;
-
-                &lt;/button&gt;
-
-                &lt;button type=&quot;button&quot; rel=&quot;tooltip&quot; title=&quot;Edit Profile&quot; class=&quot;btn btn-success btn-simple btn-xs&quot;&gt;
-
-                    &lt;i class=&quot;fa fa-edit&quot;&gt;&lt;/i&gt;
-
-                &lt;/button&gt;
-
-                &lt;button type=&quot;button&quot; rel=&quot;tooltip&quot; title=&quot;Remove&quot; class=&quot;btn btn-danger btn-simple btn-xs&quot;&gt;
-
-                    &lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;
-
-                &lt;/button&gt;
-
-            &lt;/td&gt;
-
-        &lt;/tr&gt;
-
-        &lt;tr&gt;
-
-            &lt;td class=&quot;text-center&quot;&gt;4&lt;/td&gt;
-
-            &lt;td&gt;Mike Monday&lt;/td&gt;
-
-            &lt;td&gt;Marketing&lt;/td&gt;
-
-            &lt;td&gt;2013&lt;/td&gt;
-
-            &lt;td class=&quot;text-right&quot;&gt;&amp;euro; 49,990&lt;/td&gt;
-
-            &lt;td class=&quot;td-actions text-right&quot;&gt;
-
-                &lt;button type=&quot;button&quot; rel=&quot;tooltip&quot; title=&quot;View Profile&quot; class=&quot;btn btn-info btn-simple btn-xs&quot;&gt;
-
-                    &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;
-
-                &lt;/button&gt;
-
-                &lt;button type=&quot;button&quot; rel=&quot;tooltip&quot; title=&quot;Edit Profile&quot; class=&quot;btn btn-success btn-simple btn-xs&quot;&gt;
-
-                    &lt;i class=&quot;fa fa-edit&quot;&gt;&lt;/i&gt;
-
-                &lt;/button&gt;
-
-                &lt;button type=&quot;button&quot; rel=&quot;tooltip&quot; title=&quot;Remove&quot; class=&quot;btn btn-danger btn-simple btn-xs&quot;&gt;
-
-                    &lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;
-
-                &lt;/button&gt;
-
-            &lt;/td&gt;
-
-        &lt;/tr&gt;
-
-        &lt;tr&gt;
-
-            &lt;td class=&quot;text-center&quot;&gt;5&lt;/td&gt;
-
-            &lt;td&gt;Paul Dickens&lt;/td&gt;
-
-            &lt;td&gt;Communication&lt;/td&gt;
-
-            &lt;td&gt;2014&lt;/td&gt;
-
-            &lt;td class=&quot;text-right&quot;&gt;&amp;euro; 69,201&lt;/td&gt;
-
-            &lt;td class=&quot;td-actions text-right&quot;&gt;
-
-                &lt;button type=&quot;button&quot; rel=&quot;tooltip&quot; title=&quot;View Profile&quot; class=&quot;btn btn-info btn-simple btn-xs&quot;&gt;
-
-                    &lt;i class=&quot;fa fa-user&quot;&gt;&lt;/i&gt;
-
-                &lt;/button&gt;
-
-                &lt;button type=&quot;button&quot; rel=&quot;tooltip&quot; title=&quot;Edit Profile&quot; class=&quot;btn btn-success btn-simple btn-xs&quot;&gt;
-
-                    &lt;i class=&quot;fa fa-edit&quot;&gt;&lt;/i&gt;
-
-                &lt;/button&gt;
-
-                &lt;button type=&quot;button&quot; rel=&quot;tooltip&quot; title=&quot;Remove&quot; class=&quot;btn btn-danger btn-simple btn-xs&quot;&gt;
-
-                    &lt;i class=&quot;fa fa-times&quot;&gt;&lt;/i&gt;
-
-                &lt;/button&gt;
-
-            &lt;/td&gt;
-
-        &lt;/tr&gt;
-
-    &lt;/tbody&gt;
-
-&lt;/table&gt;
-
-&lt;/div&gt;
+	&#x3C;div class=&#x22;content table-responsive table-full-width&#x22;&#x3E;
+    &#x3C;table class=&#x22;table table-striped&#x22;&#x3E;
+        &#x3C;thead&#x3E;
+            &#x3C;th&#x3E;ID&#x3C;/th&#x3E;
+        &#x9;&#x3C;th&#x3E;Name&#x3C;/th&#x3E;
+        &#x9;&#x3C;th&#x3E;Salary&#x3C;/th&#x3E;
+        &#x9;&#x3C;th&#x3E;Country&#x3C;/th&#x3E;
+        &#x9;&#x3C;th&#x3E;City&#x3C;/th&#x3E;
+        &#x3C;/thead&#x3E;
+        &#x3C;tbody&#x3E;
+            &#x3C;tr&#x3E;
+            &#x9;&#x3C;td&#x3E;1&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Dakota Rice&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;$36,738&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Niger&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Oud-Turnhout&#x3C;/td&#x3E;
+            &#x3C;/tr&#x3E;
+            &#x3C;tr&#x3E;
+            &#x9;&#x3C;td&#x3E;2&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Minerva Hooper&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;$23,789&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Cura&#xE7;ao&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Sinaai-Waas&#x3C;/td&#x3E;
+            &#x3C;/tr&#x3E;
+            &#x3C;tr&#x3E;
+            &#x9;&#x3C;td&#x3E;3&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Sage Rodriguez&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;$56,142&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Netherlands&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Baileux&#x3C;/td&#x3E;
+            &#x3C;/tr&#x3E;
+            &#x3C;tr&#x3E;
+            &#x9;&#x3C;td&#x3E;4&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Philip Chaney&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;$38,735&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Korea, South&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Overland Park&#x3C;/td&#x3E;
+            &#x3C;/tr&#x3E;
+            &#x3C;tr&#x3E;
+            &#x9;&#x3C;td&#x3E;5&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Doris Greene&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;$63,542&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Malawi&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Feldkirchen in K&#xE4;rnten&#x3C;/td&#x3E;
+            &#x3C;/tr&#x3E;
+            &#x3C;tr&#x3E;
+            &#x9;&#x3C;td&#x3E;6&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Mason Porter&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;$78,615&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Chile&#x3C;/td&#x3E;
+            &#x9;&#x3C;td&#x3E;Gloucester&#x3C;/td&#x3E;
+            &#x3C;/tr&#x3E;
+        &#x3C;/tbody&#x3E;
+    &#x3C;/table&#x3E;
+
+&#x3C;/div&#x3E;
 </pre>
-
-    <h4>DataTables</h4>
-        <p>
-            To offer you the possibility to better work with tables, we have integrated a third party for datatables. We have changed the design for the inputs, buttons, typography, pagination and dropdown, so it can look consistent with the rest of the dashboard. <br /><br />
-            It contains methods for sorting columns, searching, paginations, ajax calls, actions on rows and many other functions. For detailed description regarding usage, please see <a href="http://bootstrap-table.wenzhixin.net.cn/documentation/">the original documentation</a> from our friend <a href="https://github.com/wenzhixin">Zhixin Wen</a>.
-<br /><br />
-            To get things going, you can start with the basic coded example below.
-        </p>
-
-    <div class="toolbar">
-        <!--Here you can write extra buttons/actions for the toolbar-->
-    </div>
-    <table id="bootstrap-table" class="table">
-        <thead>
-            <th data-field="state" data-checkbox="true"></th>
-            <th data-field="id" class="text-center">ID</th>
-        	<th data-field="name" data-sortable="true">Name</th>
-        	<th data-field="salary" data-sortable="true">Salary</th>
-        	<th data-field="country" data-sortable="true">Country</th>
-        	<th data-field="city">City</th>
-        	<th data-field="actions" class="td-actions text-right" data-events="operateEvents" data-formatter="operateFormatter">Actions</th>
-        </thead>
-        <tbody>
-            <tr>
-                <td></td>
-            	<td>1</td>
-            	<td>Dakota Rice</td>
-            	<td>$36,738</td>
-            	<td>Niger</td>
-            	<td>Oud-Turnhout</td>
-            	<td></td>
-            </tr>
-            <tr>
-                <td></td>
-            	<td>2</td>
-            	<td>Minerva Hooper</td>
-            	<td>$23,789</td>
-            	<td>Curaçao</td>
-            	<td>Sinaai-Waas</td>
-            	<td></td>
-            </tr>
-            <tr>
-                <td></td>
-            	<td>3</td>
-            	<td>Sage Rodriguez</td>
-            	<td>$56,142</td>
-            	<td>Netherlands</td>
-            	<td>Baileux</td>
-            	<td></td>
-            </tr>
-        </tbody>
-    </table>
-
-<pre class="prettyprint">
-&lt;div class=&quot;toolbar&quot;&gt;
-    &lt;!--Here you can write extra buttons/actions for the toolbar--&gt;
-&lt;/div&gt;
-&lt;table id=&quot;bootstrap-table&quot; class=&quot;table&quot;&gt;
-    &lt;thead&gt;
-        &lt;th data-field=&quot;state&quot; data-checkbox=&quot;true&quot;&gt;&lt;/th&gt;
-        &lt;th data-field=&quot;id&quot; class=&quot;text-center&quot;&gt;ID&lt;/th&gt;
-    	&lt;th data-field=&quot;name&quot; data-sortable=&quot;true&quot;&gt;Name&lt;/th&gt;
-    	&lt;th data-field=&quot;salary&quot; data-sortable=&quot;true&quot;&gt;Salary&lt;/th&gt;
-    	&lt;th data-field=&quot;country&quot; data-sortable=&quot;true&quot;&gt;Country&lt;/th&gt;
-    	&lt;th data-field=&quot;city&quot;&gt;City&lt;/th&gt;
-    	&lt;th data-field=&quot;actions&quot; class=&quot;td-actions text-right&quot; data-events=&quot;operateEvents&quot; data-formatter=&quot;operateFormatter&quot;&gt;Actions&lt;/th&gt;
-    &lt;/thead&gt;
-    &lt;tbody&gt;
-        &lt;tr&gt;
-            &lt;td&gt;&lt;/td&gt;
-        	&lt;td&gt;1&lt;/td&gt;
-        	&lt;td&gt;Dakota Rice&lt;/td&gt;
-        	&lt;td&gt;$36,738&lt;/td&gt;
-        	&lt;td&gt;Niger&lt;/td&gt;
-        	&lt;td&gt;Oud-Turnhout&lt;/td&gt;
-        	&lt;td&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;&lt;/td&gt;
-        	&lt;td&gt;2&lt;/td&gt;
-        	&lt;td&gt;Minerva Hooper&lt;/td&gt;
-        	&lt;td&gt;$23,789&lt;/td&gt;
-        	&lt;td&gt;Cura&ccedil;ao&lt;/td&gt;
-        	&lt;td&gt;Sinaai-Waas&lt;/td&gt;
-        	&lt;td&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-        &lt;tr&gt;
-            &lt;td&gt;&lt;/td&gt;
-        	&lt;td&gt;3&lt;/td&gt;
-        	&lt;td&gt;Sage Rodriguez&lt;/td&gt;
-        	&lt;td&gt;$56,142&lt;/td&gt;
-        	&lt;td&gt;Netherlands&lt;/td&gt;
-        	&lt;td&gt;Baileux&lt;/td&gt;
-        	&lt;td&gt;&lt;/td&gt;
-        &lt;/tr&gt;
-    &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;!-- the javascript for the datatables --&gt;
-&lt;script type=&quot;text/javascript&quot;&gt;
-    var $table = $(&#39;#bootstrap-table&#39;);
-
-    $().ready(function(){
-        $table.bootstrapTable({
-            toolbar: &quot;.toolbar&quot;,
-            clickToSelect: true,
-            showRefresh: true,
-            search: true,
-            showToggle: true,
-            showColumns: true,
-            pagination: true,
-            searchAlign: &#39;left&#39;,
-            pageSize: 8,
-            clickToSelect: false,
-            pageList: [8,10,25,50,100],
-
-            formatShowingRows: function(pageFrom, pageTo, totalRows){
-                //do nothing here, we don&#39;t want to show the text &quot;showing x of y from...&quot;
-            },
-            formatRecordsPerPage: function(pageNumber){
-                return pageNumber + &quot; rows visible&quot;;
-            },
-            icons: {
-                refresh: &#39;fa fa-refresh&#39;,
-                toggle: &#39;fa fa-th-list&#39;,
-                columns: &#39;fa fa-columns&#39;,
-                detailOpen: &#39;fa fa-plus-circle&#39;,
-                detailClose: &#39;fa fa-minus-circle&#39;
-            }
-        });
-
-        //activate the tooltips after the data table is initialized
-        $(&#39;[rel=&quot;tooltip&quot;]&#39;).tooltip();
-
-        $(window).resize(function () {
-            $table.bootstrapTable(&#39;resetView&#39;);
-        });
-
-        window.operateEvents = {
-            &#39;click .view&#39;: function (e, value, row, index) {
-                info = JSON.stringify(row);
-
-                swal(&#39;You click view icon, row: &#39;, info);
-                console.log(info);
-            },
-            &#39;click .edit&#39;: function (e, value, row, index) {
-                info = JSON.stringify(row);
-
-                swal(&#39;You click edit icon, row: &#39;, info);
-                console.log(info);
-            },
-            &#39;click .remove&#39;: function (e, value, row, index) {
-                console.log(row);
-                $table.bootstrapTable(&#39;remove&#39;, {
-                    field: &#39;id&#39;,
-                    values: [row.id]
-                });
-            }
-        };
-    });
-
-    function operateFormatter(value, row, index) {
-        return [
-            &#39;&lt;a rel=&quot;tooltip&quot; title=&quot;View&quot; class=&quot;btn btn-simple btn-info btn-icon table-action view&quot; href=&quot;javascript:void(0)&quot;&gt;&#39;,
-                &#39;&lt;i class=&quot;fa fa-image&quot;&gt;&lt;/i&gt;&#39;,
-            &#39;&lt;/a&gt;&#39;,
-            &#39;&lt;a rel=&quot;tooltip&quot; title=&quot;Edit&quot; class=&quot;btn btn-simple btn-warning btn-icon table-action edit&quot; href=&quot;javascript:void(0)&quot;&gt;&#39;,
-                &#39;&lt;i class=&quot;fa fa-edit&quot;&gt;&lt;/i&gt;&#39;,
-            &#39;&lt;/a&gt;&#39;,
-            &#39;&lt;a rel=&quot;tooltip&quot; title=&quot;Remove&quot; class=&quot;btn btn-simple btn-danger btn-icon table-action remove&quot; href=&quot;javascript:void(0)&quot;&gt;&#39;,
-                &#39;&lt;i class=&quot;fa fa-remove&quot;&gt;&lt;/i&gt;&#39;,
-            &#39;&lt;/a&gt;&#39;
-        ].join(&#39;&#39;);
-    }
-
-
-&lt;/script&gt;
-</pre>
-
 
 </div>
 <!-- end row -->
@@ -1911,100 +1200,6 @@ function showNotification(from, align){
     <h2>Charts</h2>
     <legend></legend>
     <p>For the implementation of graphic charts, we used the Chartist plugin and added our custom styles. The plugin is free to download and use <a href="https://gionkunz.github.io/chartist-js/examples.html">here</a>. <a href="https://github.com/gionkunz">Gion Kunz</a> is the guy behind the project; he did an awesome job and we recommend using his stuff. Besides all the great options for customisation that you have using it, it is also fully responsive. We changed the colours, background and typography.</p>
-    <h4>Line Chart</h4>
-    <p>We recommend using this chart when you have easy to understand information, that can be conveyed in a single line throughout a continuous period. </p>
-    <div class="row">
-        <div class="col-md-8">
-        <h4><small>24 Hours Performance</small></h4>
-        <div id="chartPerformance" class="ct-chart"></div>
-        </div>
-    </div>
-<pre class="prettyprint">
-&lt;!-- graphic area in html --&gt;
-
-
-
-&lt;h4&gt; &lt;br&gt;&lt;small&gt;24 Hours Performance&lt;/small&gt;&lt;/h4&gt;
-
-&lt;div id=&quot;chartPerformance&quot; class=&quot;ct-chart&quot;&gt;&lt;/div&gt;
-
-
-
-&lt;!-- javascript --&gt;
-var dataPerformance = {
-  labels: ['6pm','9pm','11pm', '2am', '4am', '8am', '2pm', '5pm', '8pm', '11pm', '4am'],
-  series: [
-    [1, 6, 8, 7, 4, 7, 8, 12, 16, 17, 14, 13]
-  ]
-};
-
-var optionsPerformance = {
-  showPoint: false,
-  lineSmooth: true,
-  height: &quot;200px&quot;,
-  axisX: {
-    showGrid: false,
-    showLabel: true
-  },
-  axisY: {
-    offset: 40,
-  },
-  low: 0,
-  high: 16,
-  height: &quot;250px&quot;
-};
-
-Chartist.Line('#chartPerformance', dataPerformance, optionsPerformance);
-</pre>
-
-    <h4>Line Chart with Points</h4>
-    <p>This graphic is best used when you have multiple results for different points and you want to show a correlation (growth, down-side, etc).</p>
-    <div class="row">
-        <div class="col-md-8">
-            <h4><small>NASDAQ: AAPL</small></h4>
-            <div id="chartStock" class="ct-chart"></div>
-        </div>
-    </div>
-<pre class="prettyprint">
-
-&lt;!-- graphic area in html --&gt;
-
-&lt;h4&gt;&lt;/small&gt; &lt;br&gt;&lt;small&gt;NASDAQ: AAPL&lt;/small&gt;&lt;/h4&gt;
-
-&lt;div id=&quot;chartStock&quot; class=&quot;ct-chart&quot;&gt;&lt;/div&gt;
-
-
-
-&lt;!-- javascript --&gt;
-
-var dataStock = {
-  labels: ['\'07','\'08','\'09', '\'10', '\'11', '\'12', '\'13', '\'14', '\'15'],
-  series: [
-    [22.20, 34.90, 42.28, 51.93, 62.21, 80.23, 62.21, 82.12, 102.50, 107.23]
-  ]
-};
-
-var optionsStock = {
-  lineSmooth: false,
-  height: "200px",
-  axisY: {
-    offset: 40,
-    labelInterpolationFnc: function(value) {
-        return '$' + value;
-      }
-
-  },
-  low: 10,
-  height: "250px",
-  high: 110,
-    classNames: {
-      point: 'ct-point ct-green',
-      line: 'ct-line ct-green'
-  }
-};
-
-Chartist.Line('#chartStock', dataStock, optionsStock);
-</pre>
 
     <h4>Multiple Lines Chart</h4>
     <p>We recommend you use this graphic when you need to show multiple functions in the same visual element. For example, you can see a correlation between the registered versus active users. Always try to use a legend when you have multiple elements in the graphic.</p>
@@ -2133,60 +1328,6 @@ Chartist.Pie('#chartPreferences', {
   series: [62, 32, 6]
 });
 </pre>
-
-    <h4>Bar Chart</h4>
-    <p>We recommend using the bar chart whenever you want to show progress over periods of time. Here is an example.</p>
-    <div class="row">
-        <div class="col-md-8">
-            <h4><small>Views</small></h4>
-            <div id="chartViews" class="ct-chart"></div>
-        </div>
-    </div>
-<pre class="prettyprint">
-&lt;!-- graphic area in html --&gt;
-
-&lt;h4&gt;&lt;small&gt;Views&lt;/small&gt;&lt;/h4&gt;
-
-&lt;div id=&quot;chartViews&quot; class=&quot;ct-chart&quot;&gt;&lt;/div&gt;
-
-
-
-&lt;!-- javascript --&gt;
-
-var dataViews = {
-  labels: ['Jan', 'Feb', 'Mar', 'Apr', 'Mai', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'],
-  series: [
-    [542, 443, 320, 780, 553, 453, 326, 434, 568, 610, 756, 895]
-  ]
-};
-
-var optionsViews = {
-  seriesBarDistance: 10,
-  classNames: {
-    bar: 'ct-bar'
-  },
-  axisX: {
-    showGrid: false,
-
-  },
-  height: &quot;250px&quot;
-
-};
-
-var responsiveOptionsViews = [
-  ['screen and (max-width: 640px)', {
-    seriesBarDistance: 5,
-    axisX: {
-      labelInterpolationFnc: function (value) {
-        return value[0];
-      }
-    }
-  }]
-];
-
-Chartist.Bar('#chartViews', dataViews, optionsViews, responsiveOptionsViews);
-</pre>
-
     <h4>Multiple Bars Chart</h4>
     <p>Go for multiple bars charts if you want to show two indicators side by side.</p>
     <div class="row">
