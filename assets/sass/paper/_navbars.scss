@@ -165,3 +165,128 @@
         background-color: transparent;
     }
 }
+.navbar-transparent, [class*="navbar-ct"]{
+
+    .navbar-brand{
+
+        @include opacity(.9);
+
+        &:focus,
+
+        &:hover{
+
+            background-color: transparent;
+
+            @include opacity(1);
+
+        }
+
+    }
+
+    .navbar-brand:not([class*="text"]){
+
+        color: $white-color;
+
+    }
+
+    .navbar-nav{
+
+        > li > a:not(.btn){
+
+            color: $white-color;
+
+            border-color: $white-color;
+
+            @include opacity(0.8);
+
+        }
+
+        > .active > a:not(.btn),
+
+        > .active > a:hover:not(.btn),
+
+        > .active > a:focus:not(.btn),
+
+        > li > a:hover:not(.btn),
+
+        > li > a:focus:not(.btn){
+
+            background-color: transparent;
+
+            border-radius: 3px;
+
+            color: $white-color;
+
+            @include opacity(1);
+
+        }
+
+        .nav > li > a.btn:hover{
+
+            background-color: transparent;
+
+        }
+
+        > .dropdown > a .caret,
+
+        > .dropdown > a:hover .caret,
+
+        > .dropdown > a:focus .caret{
+
+            border-bottom-color: $white-color;
+
+            border-top-color: $white-color;
+
+        }
+
+        > .open > a,
+
+        > .open > a:hover,
+
+        > .open > a:focus {
+
+            background-color: transparent;
+
+            color: $white-color;
+
+            @include opacity(1);
+
+        }
+
+    }
+
+    .btn-default{
+
+        color: $white-color;
+
+        border-color: $white-color;
+
+    }
+
+    .btn-default.btn-fill{
+
+        color: $dark-gray;
+
+        background-color: $white-color;
+
+        @include opacity(.9);
+
+    }
+
+    .btn-default.btn-fill:hover,
+
+    .btn-default.btn-fill:focus,
+
+    .btn-default.btn-fill:active,
+
+    .btn-default.btn-fill.active,
+
+    .open .dropdown-toggle.btn-fill.btn-default{
+
+        border-color: $white-color;
+
+        @include opacity(1);
+
+    }
+
+}
