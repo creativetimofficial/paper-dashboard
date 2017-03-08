@@ -1,7 +1,7 @@
 /*!
 
  =========================================================
- * Paper Dashboard - v1.1.1
+ * Paper Dashboard - v1.1.2
  =========================================================
 
  * Product Page: http://www.creative-tim.com/product/paper-dashboard
