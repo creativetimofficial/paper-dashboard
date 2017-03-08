@@ -53,6 +53,9 @@ paper-dashboard/
 |   └── img/
 |
 ├── dashboard.html
+├── documentation/
+|   ├── css
+|   └── documentation.html
 ├── icons.html
 ├── maps.html
 ├── notifications.html
@@ -73,6 +76,9 @@ V1.1.0, 30 Sept 2016 - New Page
 
 V1.1.1, 8 Feb 2017 
 - switched to MIT license
+
+V1.1.2, 8 Mar 2017
+- added documentation
 
 ### License
 
