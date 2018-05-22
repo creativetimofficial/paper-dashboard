@@ -289,92 +289,87 @@
           <a target="_blank" href="http://www.chartjs.org/docs/latest/">full documentation</a>.</p>
         <div class="bd-example" data-example-id="">
           <!-- markup -->
-          <canvas id="lineChartExample"></canvas>
+          <canvas id="chartHours"></canvas>
         </div>
         <div class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- markup --&gt;</span>
-<span class="nt">&lt;canvas</span> <span class="na">id=</span><span class="s">"lineChartExample"</span><span class="nt">&gt;&lt;/canvas&gt;</span></code></pre></div>
+<span class="nt">&lt;canvas</span> <span class="na">id=</span><span class="s">"chartHours"</span><span class="nt">&gt;&lt;/canvas&gt;</span></code></pre></div>
         <figure class="highlight"><pre><code class="language-html" data-lang="html"><span class="c">&lt;!-- javascript init --&gt;</span>
 chartColor = "#FFFFFF";
 
-// General configuration for the charts with Line gradientStroke
-gradientChartOptionsConfiguration = {
-    maintainAspectRatio: false,
-    legend: {
-        display: false
-    },
-    tooltips: {
-      bodySpacing: 4,
-      mode:"nearest",
-      intersect: 0,
-      position:"nearest",
-      xPadding:10,
-      yPadding:10,
-      caretPadding:10
-    },
-    responsive: 1,
-    scales: {
-        yAxes: [{
-          display:0,
-          gridLines:0,
-          ticks: {
-              display: false
-          },
-          gridLines: {
-              zeroLineColor: "transparent",
-              drawTicks: false,
-              display: false,
-              drawBorder: false
-          }
-        }],
-        xAxes: [{
-          display:0,
-          gridLines:0,
-          ticks: {
-              display: false
-          },
-          gridLines: {
-            zeroLineColor: "transparent",
-            drawTicks: false,
-            display: false,
-            drawBorder: false
-          }
-        }]
-    },
-    layout:{
-      padding:{left:0,right:0,top:15,bottom:15}
-    }
-};
-
-ctx = document.getElementById('lineChartExample').getContext("2d");
-
-gradientStroke = ctx.createLinearGradient(500, 0, 100, 0);
-gradientStroke.addColorStop(0, '#80b6f4');
-gradientStroke.addColorStop(1, chartColor);
-
-gradientFill = ctx.createLinearGradient(0, 170, 0, 50);
-gradientFill.addColorStop(0, "rgba(128, 182, 244, 0)");
-gradientFill.addColorStop(1, "rgba(249, 99, 59, 0.40)");
+ctx = document.getElementById('chartHours').getContext("2d");
 
 myChart = new Chart(ctx, {
-    type: 'line',
-    data: {
-        labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
-        datasets: [{
-            label: "Active Users",
-            borderColor: "#f96332",
-            pointBorderColor: "#FFF",
-            pointBackgroundColor: "#f96332",
-            pointBorderWidth: 2,
-            pointHoverRadius: 4,
-            pointHoverBorderWidth: 1,
-            pointRadius: 4,
-            fill: true,
-            backgroundColor: gradientFill,
-            borderWidth: 2,
-            data: [542, 480, 430, 550, 530, 453, 380, 434, 568, 610, 700, 630]
-        }]
+  type: 'line',
+
+  data: {
+    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct"],
+    datasets: [{
+        borderColor: "#6bd098",
+        backgroundColor: "#6bd098",
+        pointRadius: 0,
+        pointHoverRadius: 0,
+        borderWidth: 3,
+        data: [300, 310, 316, 322, 330, 326, 333, 345, 338, 354]
+      },
+      {
+        borderColor: "#f17e5d",
+        backgroundColor: "#f17e5d",
+        pointRadius: 0,
+        pointHoverRadius: 0,
+        borderWidth: 3,
+        data: [320, 340, 365, 360, 370, 385, 390, 384, 408, 420]
+      },
+      {
+        borderColor: "#fcc468",
+        backgroundColor: "#fcc468",
+        pointRadius: 0,
+        pointHoverRadius: 0,
+        borderWidth: 3,
+        data: [370, 394, 415, 409, 425, 445, 460, 450, 478, 484]
+      }
+    ]
+  },
+  options: {
+    legend: {
+      display: false
     },
-    options: gradientChartOptionsConfiguration
+
+    tooltips: {
+      enabled: false
+    },
+
+    scales: {
+      yAxes: [{
+
+        ticks: {
+          fontColor: "#9f9f9f",
+          beginAtZero: false,
+          maxTicksLimit: 5,
+          //padding: 20
+        },
+        gridLines: {
+          drawBorder: false,
+          zeroLineColor: "#ccc",
+          color: 'rgba(255,255,255,0.05)'
+        }
+
+      }],
+
+      xAxes: [{
+        barPercentage: 1.6,
+        gridLines: {
+          drawBorder: false,
+          color: 'rgba(255,255,255,0.1)',
+          zeroLineColor: "transparent",
+          display: false,
+        },
+        ticks: {
+          padding: 20,
+          fontColor: "#9f9f9f"
+        }
+      }]
+    },
+  }
 });</code></pre></figure>
       </main>
     </div>
@@ -686,7 +681,7 @@ myChart = new Chart(ctx, {
   <script src="../../../assets/demo/src/application.js"></script>
   <script>
     $(document).ready(function() {
-      if ($('#BarChartExample').length != 0) {
+      if ($('#chartHours').length != 0) {
         demo.initDocChart();
       }
 
