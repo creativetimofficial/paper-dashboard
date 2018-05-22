@@ -11,6 +11,35 @@
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
 
+	<!-- Canonical SEO -->
+    <link rel="canonical" href="https://www.creative-tim.com/product/paper-dashboard"/>
+
+    <!--  Social tags      -->
+    <meta name="keywords" content="bootstrap dashboard, creative tim, html dashboard, html css dashboard, web dashboard, paper design, bootstrap dashboard, bootstrap, css3 dashboard, bootstrap admin, paper bootstrap dashboard, frontend, responsive bootstrap dashboard">
+
+    <meta name="description" content="Paper Dashboard is a beautiful Bootstrap Admin Panel for your next project.">
+
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Paper Dashboard by Creative Tim">
+    <meta itemprop="description" content="Paper Dashboard is a beautiful Bootstrap Admin Panel for your next project.">
+    <meta itemprop="image" content="http://s3.amazonaws.com/creativetim_bucket/products/43/original/opt_pd_thumbnail.jpg">
+
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@creativetim">
+    <meta name="twitter:title" content="Paper Dashboard PRO by Creative Tim">
+    <meta name="twitter:description" content="Paper Dashboard is a beautiful Bootstrap Admin Panel for your next project.">
+    <meta name="twitter:creator" content="@creativetim">
+    <meta name="twitter:image" content="http://s3.amazonaws.com/creativetim_bucket/products/43/original/opt_pd_thumbnail.jpg">
+
+    <!-- Open Graph data -->
+    <meta property="og:title" content="Paper Dashboard by Creative Tim" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="http://demos.creative-tim.com/paper-dashboard/dashboard.html" />
+    <meta property="og:image" content="http://s3.amazonaws.com/creativetim_bucket/products/43/original/opt_pd_thumbnail.jpg"/>
+    <meta property="og:description" content="Paper Dashboard is a beautiful Bootstrap Admin Panel for your next project." />
+    <meta property="og:site_name" content="Creative Tim" />
+
 
     <!-- Bootstrap core CSS     -->
     <link href="assets/css/bootstrap.min.css" rel="stylesheet" />
@@ -361,6 +390,54 @@
     </div>
 </div>
 
+<div class="fixed-plugin">
+    <div class="dropdown show-dropdown">
+        <a href="#" data-toggle="dropdown">
+        <i class="fa fa-cog fa-2x"> </i>
+        </a>
+        <ul class="dropdown-menu">
+            <li class="header-title">Sidebar Background</li>
+            <li class="adjustments-line text-center">
+                <a href="javascript:void(0)" class="switch-trigger background-color">
+                        <span class="badge filter badge-white active" data-color="white"></span>
+                        <span class="badge filter badge-black" data-color="black"></span>
+                </a>
+            </li>
+
+			<li class="header-title">Sidebar Active Color</li>
+            <li class="adjustments-line text-center">
+                <a href="javascript:void(0)" class="switch-trigger active-color">
+                        <span class="badge filter badge-primary" data-color="primary"></span>
+                        <span class="badge filter badge-info" data-color="info"></span>
+                        <span class="badge filter badge-success" data-color="success"></span>
+                        <span class="badge filter badge-warning" data-color="warning"></span>
+                        <span class="badge filter badge-danger active" data-color="danger"></span>
+                </a>
+            </li>
+
+            <li class="button-container">
+                <div class="">
+                    <a href="http://www.creative-tim.com/product/paper-dashboard" target="_blank" class="btn btn-info btn-block btn-fill">Download for Free</a>
+                </div>
+            </li>
+
+			<li class="header-title">Want More Components?</li>
+			<li class="button-container">
+				<div class="">
+                    <a href="http://www.creative-tim.com/product/paper-dashboard-pro?ref=pd-free-upgrade-live" target="_blank" class="btn btn-danger btn-block btn-fill">Get PRO Version!</a>
+                </div>
+			</li>
+
+            <li class="header-title">Thank you for sharing!</li>
+
+            <li class="button-container">
+                <button id="twitter" class="btn btn-social btn-twitter btn-round"><i class="fa fa-twitter"></i> </button>
+                <button id="facebook" class="btn btn-social btn-facebook btn-round"><i class="fa fa-facebook-square"></i></button>
+            </li>
+
+        </ul>
+    </div>
+</div>
 
 </body>
 
@@ -385,6 +462,7 @@
 
 	<!-- Paper Dashboard DEMO methods, don't include it in your project! -->
 	<script src="assets/js/demo.js"></script>
+	<script src="assets/js/jquery.sharrre.js"></script>
 
 	<script type="text/javascript">
     	$(document).ready(function(){
@@ -393,7 +471,7 @@
 
         	$.notify({
             	icon: 'ti-gift',
-            	message: "Welcome to <b>Paper Dashboard</b> - a beautiful Bootstrap freebie for your next project."
+            	message: "Welcome to <b>Paper Dashboard</b> - a beautiful Bootstrap Admin Panel for your next project."
 
             },{
                 type: 'success',
