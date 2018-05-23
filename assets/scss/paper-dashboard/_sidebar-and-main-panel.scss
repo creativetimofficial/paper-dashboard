@@ -152,7 +152,7 @@
 
     .logo{
         position: relative;
-        padding: $padding-base-vertical $padding-base-horizontal;
+        padding: 7px $padding-base-horizontal;
         z-index: 4;
 
         a.logo-mini,
@@ -172,6 +172,7 @@
         a.logo-normal{
             display: block;
             opacity: 1;
+            padding: 11px 0 8px;
             @include transform-translate-x(0px);
         }
 

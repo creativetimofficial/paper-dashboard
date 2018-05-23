@@ -3,6 +3,10 @@
   .navbar {
     padding: 0;
 
+    &.navbar-absolute {
+      padding-top: 0;
+    }
+
     .navbar-brand {
       font-size: 16px;
       margin-right: 0;
@@ -302,6 +306,18 @@
   }
 }
 
+@media screen and (min-width: 768px){
+  .footer {
+    .footer-nav {
+      padding-left: 21px;
+    }
+
+    .credits {
+      padding-right: 15px;
+    }
+  }
+}
+
 @media screen and (min-width: 992px){
     .navbar-collapse{
         background: none !important;
@@ -377,6 +393,7 @@
         }
       }
     }
+
 }
 
 @media screen and (max-width: 768px){
@@ -438,6 +455,10 @@
     .credits {
       margin: 0 auto !important;
     }
+
+    .footer-nav {
+      margin-bottom: 10px !important;
+    }
   }
 
   .register-page {
@@ -460,6 +481,27 @@
     }
   }
 }
+
+@media screen and (max-width: 413px){
+  .fixed-plugin {
+    .dropdown.show-dropdown.show{
+      .dropdown-menu.show {
+        width: 225px !important;
+
+        &[x-placement=top-start] {
+          transform: translate3d(0,400px,0)!important;
+        }
+
+        &:before,
+        &:after {
+          bottom: 360px !important;
+        }
+      }
+    }
+  }
+
+}
+
 
 @media screen and (max-width: 576px){
     .navbar[class*='navbar-toggleable-'] .container{
