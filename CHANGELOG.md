@@ -1,6 +1,6 @@
 # Change Log
 
-## [1.0.2] 2018-05-22
+## [2.0.0] 22.05.2018
 ### Bootstrap 4.1.1 integration & Bug Fixing
 - Small changes for components
 - ChartJS plugin integration
@@ -8,14 +8,14 @@
 - Added License for Nucleo Icons
 - Small changes on design of Cards
 
-## [1.0.2] 2017-03-08
+## [1.0.2] 08.03.2017
  - added documentation files
 
-## [1.0.1] 2016-09-30
+## [1.0.1] 30.09.2016
 ### Bugfixing, Improvements
 - New Page [current version]
 - added Upgrade to PRO page for those who want to upsell inside the dashboard
- - switched to MIT license
+- switched to MIT license
 
-## [1.0.0] 2016-03-29
+## [1.0.0] 29.03.2016
 ### Original Release
