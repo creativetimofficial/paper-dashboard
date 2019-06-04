@@ -1,8 +1,8 @@
-# [Paper Dashboard 2](https://demos.creative-tim.com/paper-dashboard-2/examples/dashboard.html) [![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
+# [Paper Dashboard 2](https://demos.creative-tim.com/paper-dashboard/examples/dashboard.html) [![version][version-badge]][CHANGELOG] [![license][license-badge]][LICENSE]
 
 ![alt text](https://s3.amazonaws.com/creativetim_bucket/products/86/original/opt_pd2_thumbnail.jpg)
 
-If you are a developer or a website owner that needs to work within a dashboard and want to have a pretty sight while doing so, **[Paper Dashboard 2](https://creative-tim.com/live/paper-dashboard-2)** is for you. Paper Dashboard is a Bootstrap Admin Panel which combines soft colours with beautiful typography and spacious cards and graphics. It is a powerful tool, but it is light and easy to use. It has enough features to allow you to get the job done, but it is not crowded to the point where you can't find the files for a specific plugin.
+If you are a developer or a website owner that needs to work within a dashboard and want to have a pretty sight while doing so, **[Paper Dashboard 2](https://demos.creative-tim.com/paper-dashboard/examples/dashboard.html)** is for you. Paper Dashboard is a Bootstrap Admin Panel which combines soft colours with beautiful typography and spacious cards and graphics. It is a powerful tool, but it is light and easy to use. It has enough features to allow you to get the job done, but it is not crowded to the point where you can't find the files for a specific plugin.
 
 We like consistency and design that blends into its purpose. Paper Dashboard is a perfect example of our most thoughtful work. It combines over a dozen components and plugins, while looking like everything fits together. For an easy start or inspiration for you project, we have also create a set of example pages, like the user settings or usage graphics.
 
@@ -16,7 +16,7 @@ We wanted to fully display the power of this dashboard, so the kit comes packed 
 
 ## Links:
 
-+ [Live Preview](https://creativetimofficial.github.io/paper-dashboard-2/examples/dashboard.html)
++ [Live Preview](https://demos.creative-tim.com/paper-dashboard/examples/dashboard.html)
 + [Paper Dashboard 2 PRO](https://www.creative-tim.com/product/paper-dashboard-2-pro) (from $39)
 
 **Tutorial**
