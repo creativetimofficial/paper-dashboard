@@ -1,11 +1,11 @@
 /*!
 
  =========================================================
- * Paper Dashboard - v1.1.2
+ * Paper Dashboard - v1.2.1
  =========================================================
 
  * Product Page: http://www.creative-tim.com/product/paper-dashboard
- * Copyright 2017 Creative Tim (http://www.creative-tim.com)
+ * Copyright 2019 Creative Tim (http://www.creative-tim.com)
  * Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard/blob/master/LICENSE.md)
 
  =========================================================
