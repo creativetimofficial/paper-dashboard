@@ -1,19 +1,17 @@
-/*!
+// =========================================================
+//  Paper Dashboard 2 - v2.0.0
+// =========================================================
+//
+//  Product Page: https://www.creative-tim.com/product/paper-dashboard-2
+//  Copyright 2019 Creative Tim (https://www.creative-tim.com)
+//  Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard/blob/master/LICENSE)
+//
+//  Coded by Creative Tim
+//
+// =========================================================
+//
+// The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
- =========================================================
- * Paper Dashboard 2 - v2.0.0
- =========================================================
-
- * Product Page: https://www.creative-tim.com/product/paper-dashboard-2
- * Copyright 2018 Creative Tim (http://www.creative-tim.com)
-
- * Designed by www.invisionapp.com Coded by www.creative-tim.com
-
- =========================================================
-
- * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
- */
 
 (function() {
   isWindows = navigator.platform.indexOf('Win') > -1 ? true : false;
