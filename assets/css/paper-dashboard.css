@@ -6295,15 +6295,15 @@ License - nucleoapp.com/license/
   }
   .sidebar .sidebar-wrapper li.active>a:not([data-toggle="collapse"]):before,
   .sidebar .sidebar-wrapper li.active>[data-toggle="collapse"]+div .nav li:before {
-    border-right: 17px solid #DDDDDD;
-    border-top: 17px solid transparent;
-    border-bottom: 17px solid transparent;
+    border-right: 18px solid #DDDDDD;
+    border-top: 18px solid transparent;
+    border-bottom: 18px solid transparent;
     content: "";
     display: inline-block;
     position: absolute;
-    right: -16px;
+    right: -15px;
     opacity: 1;
-    top: 7px;
+    top: 6px;
     transition: opacity 150ms ease-in;
   }
   .sidebar .sidebar-wrapper li.active>a:not([data-toggle="collapse"]):after,
@@ -6314,7 +6314,7 @@ License - nucleoapp.com/license/
     content: "";
     display: inline-block;
     position: absolute;
-    right: -17px;
+    right: -15px;
     opacity: 1;
     top: 7px;
     transition: opacity 150ms ease-in;
