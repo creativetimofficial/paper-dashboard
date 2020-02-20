@@ -6,7 +6,7 @@ If you are a developer or a website owner that needs to work within a dashboard 
 
 We like consistency and design that blends into its purpose. Paper Dashboard is a perfect example of our most thoughtful work. It combines over a dozen components and plugins, while looking like everything fits together. For an easy start or inspiration for you project, we have also create a set of example pages, like the user settings or usage graphics.
 
-Paper Dashboard is built using the same design language as **[Paper Kit(https://www.creative-tim.com/product/paper-kit-2)**. You can easily use them together, or pick between them depending on the project you have.
+Paper Dashboard is built using the same design language as **[Paper Kit](https://www.creative-tim.com/product/paper-kit-2)**. You can easily use them together, or pick between them depending on the project you have.
 
 **Bootstrap 4 Support**
 Paper Dashboard 2 is built on top of the much awaited Bootstrap 4. This makes starting a new project very simple. It also provides benefits if you are already working on a Bootstrap 4 project; you can just import the Paper Dashboard style over it. Most of the elements have been redesigned; but if you are using an element we have not touched, it will fall back to the Bootstrap default.
