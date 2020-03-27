@@ -1,5 +1,10 @@
 # Change Log
 
+## [2.0.1] 27.03.2020
+### Broken links fixing
+- Solve the backlinks errors
+- Small change for documentation
+
 ## [2.0.0] 22.05.2018
 ### Bootstrap 4.1.1 integration & Bug Fixing
 - Small changes for components

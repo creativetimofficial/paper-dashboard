@@ -1,44 +1,57 @@
 .dropdown,
-.dropup,
-.bootstrap-select{
-    .dropdown-menu{
-        display: block;
-        @include opacity(0);
-        @include box-shadow($dropdown-shadow);
-        visibility: hidden;
-        position: absolute;
-        transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s, opacity 0.3s ease 0s, height 0s linear 0.35s;
+.dropup {
+  > .dropdown-menu:first-of-type {
+    display: block;
+    transition: all 0.3s cubic-bezier(0.215, 0.61, 0.355, 1) 0s, opacity 0.3s ease 0s, height 0s linear 0.35s;
+  }
+  .dropdown-menu {
+      @include opacity(0);
+      @include box-shadow($dropdown-shadow);
+      visibility: hidden;
+      position: absolute;
 
-        &[x-placement="top-start"]{
-            @include transform-translate-y-dropdown(0px);
+      &[x-placement="top-start"] {
+        @include transform-translate-y-dropdown(0px);
+      }
+      &[x-placement="bottom-start"] {
+        @include transform-translate-y-dropdown(0px);
+      }
+  }
 
-        }
-        &[x-placement="bottom-start"]{
-            @include transform-translate-y-dropdown(0px);
-        }
+  &.show .dropdown-menu {
+    @include opacity(1);
+    visibility: visible;
+
+    &[x-placement="top-start"] {
+      @include transform-translate-y-dropdown(-50px);
+      top: auto !important;
+      bottom: 0 !important;
     }
-
-    &.show .dropdown-menu{
-        @include opacity(1);
-        visibility: visible;
-
-        &[x-placement="top-start"]{
-            @include transform-translate-y-dropdown(-50px);
-            top: auto !important;
-            bottom: 0 !important;
-
-        }
-        &[x-placement="bottom-start"]{
-            @include transform-translate-y-dropdown(50px);
-            bottom: auto !important;
-            top: 0 !important;
-        }
+    &[x-placement="bottom-start"] {
+      @include transform-translate-y-dropdown(50px);
+      bottom: auto !important;
+      top: 0 !important;
     }
+  }
+}
 
+.bootstrap-select {
+  .dropdown-menu {
+    li.hidden {
+      display: none;
+    }
+  }
+
+  .bs-searchbox {
+    .form-control {
+      border-radius: 4px;
+      border-bottom-color: #ddd;
+    }
+  }
 }
 
 .dropup .dropdown-menu,
-.dropdown-btn .dropdown-menu{
+.dropdown-btn .dropdown-menu {
     @include transform-translate-y-dropdown(0px);
     top: auto !important;
     bottom: 0 !important;
@@ -46,32 +59,32 @@
 }
 
 .dropup.show .dropdown-menu,
-.dropdown-btn.show .dropdown-menu{
-    opacity: 1;
-    visibility: visible;
+.dropdown-btn.show .dropdown-menu {
+  opacity: 1;
+  visibility: visible;
 
-    .dropdown-menu.inner{
-      @include transform-translate-y(0px);
-    }
+  &.show {
+    @include transform-translate-y(-50px);
+  }
 }
 
-.bootstrap-select.show{
-  .dropdown-menu.show{
-    &[x-placement="top-start"]{
-        @include transform-translate-y-dropdown(-60px);
-        top: auto !important;
-        bottom: 0 !important;
+.bootstrap-select.show {
+  .dropdown-menu.show {
+    &[x-placement="top-start"] {
+      @include transform-translate-y-dropdown(-57px);
+      top: auto !important;
+      bottom: 0 !important;
     }
 
     li:last-child {
-      a:hover{
+      a:hover {
         border-radius: 0 0 12px 12px;
       }
     }
   }
 }
 
-.bootstrap-select.dropup.show{
+.bootstrap-select.dropup.show {
   &:before {
     top: -1px !important;
   }
@@ -80,7 +93,7 @@
     top: -2px !important;
   }
 }
-.dropdown-menu{
+.dropdown-menu {
     background-color: $white-color;
     border: 0 none;
     border-radius: $border-radius-extreme;
@@ -177,13 +190,9 @@
 
 }
 .dropdown-divider{
-    margin: 0 !important;
+  margin: 0 !important;
 }
 
-//fix bug for the select items in btn-group
-.btn-group.select{
-    // overflow: hidden;
-}
 .btn-group.select.open{
     overflow: visible;
 }

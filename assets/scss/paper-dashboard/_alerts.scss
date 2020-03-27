@@ -1,4 +1,4 @@
-.alert{
+.alert {
     border: 0;
     border-radius: $border-radius-small;
     color: $white-color;
@@ -6,27 +6,31 @@
     padding-bottom: .9rem;
     position: relative;
 
-    &.alert-success{
-        background-color: lighten($success-color, 5%);
+    &.alert-success {
+      background-color: lighten($success-color, 5%);
     }
 
-    &.alert-danger{
-        background-color: lighten($danger-color, 5%);
+    &.alert-danger {
+      background-color: lighten($danger-color, 5%);
     }
 
-    &.alert-warning{
-        background-color: lighten($warning-color, 5%);
+    &.alert-warning {
+      background-color: lighten($warning-color, 5%);
     }
 
-    &.alert-info{
-        background-color: lighten($info-color, 5%);
+    &.alert-info {
+      background-color: lighten($info-color, 5%);
     }
 
-    &.alert-primary{
-        background-color: lighten($primary-color, 5%);
+    &.alert-primary {
+      background-color: lighten($primary-color, 5%);
     }
 
-    .close{
+    &.alert-default {
+      background-color: lighten($default-color, 5%);
+    }
+
+    .close {
       color: $white-color;
       opacity: .9;
       text-shadow: none;
@@ -34,7 +38,7 @@
       outline: 0;
 
       i.fa,
-      i.nc-icon{
+      i.nc-icon {
           font-size: 14px !important;
       }
 
