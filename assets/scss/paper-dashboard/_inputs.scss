@@ -9,13 +9,12 @@
     border-radius: $border-radius-base;
     color: $font-color;
     line-height: normal;
+    height: auto;
     font-size: $font-size-base;
     @include transition-input-focus-color();
     @include box-shadow(none);
 
-
-
-    &:focus{
+    &:focus {
         border: 1px solid $dark-gray;
         @include box-shadow(none);
         outline: 0 !important;
@@ -401,3 +400,10 @@ textarea.form-control{
         margin-top: 6px;
     }
 }
+
+// .input-group .input-group-prepend .input-group-text {
+//   padding: 7px 0 10px 10px;
+// }
+// .input-group.no-border .form-control+.input-group-append .input-group-text {
+//   padding: 8px 11px 11px 0;
+// }

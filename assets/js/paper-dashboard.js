@@ -1,26 +1,30 @@
-// =========================================================
-//  Paper Dashboard 2 - v2.0.0
-// =========================================================
-//
-//  Product Page: https://www.creative-tim.com/product/paper-dashboard-2
-//  Copyright 2019 Creative Tim (https://www.creative-tim.com)
-//  Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard/blob/master/LICENSE)
-//
-//  Coded by Creative Tim
-//
-// =========================================================
-//
-// The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+/*!
 
+ =========================================================
+ * Paper Dashboard 2 - v2.0.1
+ =========================================================
+
+ * Product Page: https://www.creative-tim.com/product/paper-dashboard-2
+ * Copyright 2020 Creative Tim (http://www.creative-tim.com)
+
+ * Designed by www.invisionapp.com Coded by www.creative-tim.com
+
+ =========================================================
+
+ * The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+
+ */
 
 (function() {
   isWindows = navigator.platform.indexOf('Win') > -1 ? true : false;
 
   if (isWindows) {
     // if we are on windows OS we activate the perfectScrollbar function
-    $('.sidebar .sidebar-wrapper, .main-panel').perfectScrollbar();
-
+    var ps = new PerfectScrollbar('.sidebar');
+    var ps1 = new PerfectScrollbar('.sidebar-wrapper');
+    var ps2 = new PerfectScrollbar('.main-panel');
     $('html').addClass('perfect-scrollbar-on');
+
   } else {
     $('html').addClass('perfect-scrollbar-off');
   }

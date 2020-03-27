@@ -426,7 +426,6 @@
         }
       }
     }
-
 }
 
 @media screen and (max-width: 767px){
@@ -474,13 +473,6 @@
   }
 }
 
-@media screen and (max-width: 374px){
-  .login-page {
-    .content {
-      padding-top: 10vh;
-    }
-  }
-}
 
 @media screen and (max-width: 413px){
   .fixed-plugin {
@@ -497,6 +489,12 @@
           bottom: 360px !important;
         }
       }
+    }
+  }
+
+  .login-page {
+    .container {
+      padding-top: 100px !important;
     }
   }
 
