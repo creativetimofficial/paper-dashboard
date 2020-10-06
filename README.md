@@ -1,25 +1,25 @@
-# [Paper Dashboard](http://demos.creative-tim.com/paper-dashboard/dashboard.html)
+# [Paper Dashboard](https://demos.creative-tim.com/bs3/paper-dashboard/dashboard.html)
 ![alt text](https://s3.amazonaws.com/creativetim_bucket/products/43/original/opt_pd_thumbnail.jpg "Paper Dashboard Free")
 
 If you are a developer or a website owner that needs to work within a dashboard and want to have a pretty sight while doing so, Paper Dashboard is for you. Paper Dashboard is a Bootstrap Admin Panel which combines soft colours with beautiful typography and spacious cards and graphics. It is a powerful tool, but it is light and easy to use. It has enough features to allow you to get the job done, but it is not crowded to the point where you can't find the files for a specific plugin.
 
 We like consistency and design that blends into its purpose. Paper Dashboard is a perfect example of our most thoughtful work. It combines over a dozen components and plugins, while looking like everything fits together. For an easy start or inspiration for you project, we have also create a set of example pages, like the user settings or usage graphics.
 
-Paper Dashboard is built using the same design language as [Paper Kit](http://www.creative-tim.com/product/paper-kit). You can easily use them together, or pick between them depending on the project you have.
+Paper Dashboard is built using the same design language as [Paper Kit](https://www.creative-tim.com/product/paper-kit). You can easily use them together, or pick between them depending on the project you have.
 
 Let us know what you think and what we can improve below. And good luck with development!
 
 ## Links:
 
-+ [Live Preview](http://demos.creative-tim.com/paper-dashboard/dashboard.html)
-+ [Paper Dashboard PRO](http://www.creative-tim.com/product/paper-dashboard-pro?ref=pd-free-upgrade-github) (from $39)
++ [Live Preview](https://demos.creative-tim.com/bs3/paper-dashboard/dashboard.html)
++ [Paper Dashboard PRO](https://www.creative-tim.com/product/paper-dashboard-pro?ref=pd-free-upgrade-github) (from $39)
 
 ## Quick start
 
 Quick start options:
 
 - [Download from Github](https://github.com/timcreative/paper-dashboard/releases/tag/v1.1).
-- [Download from Creative Tim](http://www.creative-tim.com/product/paper-dashboard).
+- [Download from Creative Tim](https://www.creative-tim.com/product/paper-dashboard).
 - Clone the repo: `git clone https://github.com/timcreative/paper-dashboard.git`.
 
 
@@ -82,18 +82,18 @@ V1.1.2, 8 Mar 2017
 
 ### License
 
-- Copyright 2017 Creative Tim (http://www.creative-tim.com)
+- Copyright 2017 Creative Tim (https://www.creative-tim.com)
 - Licensed under MIT (https://github.com/creativetimofficial/paper-dashboard/blob/master/LICENSE.md)
 
 ## Useful Links
 
-More products from Creative Tim: <http://www.creative-tim.com/products>
+More products from Creative Tim: <https://www.creative-tim.com/products>
 
 Tutorials: <https://www.youtube.com/channel/UCVyTG4sCw-rOvB9oHkzZD1w>
 
 Freebies: <http://www.creative-tim.com/products>
 
-Affiliate Program (earn money): <http://www.creative-tim.com/affiliates/new>
+Affiliate Program (earn money): <https://www.creative-tim.com/affiliates/new>
 
 Social Media:
 
