@@ -22,6 +22,10 @@ We wanted to fully display the power of this dashboard, so the kit comes packed 
 **Tutorial**
 In order for you to easily be able to use the Paper Dashboard 2, we have created a tutorial page in our documentation. It shows the structure for the files inside the archive and how to import them. It then features every components with a description and example how to use it. You can see the details [here](https://demos.creative-tim.com/paper-dashboard/docs/1.0/getting-started/introduction.html).
 
+## Deploy
+:rocket: You can deploy your own version of the template to Genezio with one click:
+
+[![Deploy to Genezio](https://raw.githubusercontent.com/Genez-io/graphics/main/svg/deploy-button.svg)](https://app.genez.io/start/deploy?repository=https://github.com/creativetimofficial/paper-dashboard&utm_source=github&utm_medium=referral&utm_campaign=github-creativetim&utm_term=deploy-project&utm_content=button-head)
 
 ### What's included
 
